@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Independent Data Integrity Validation Framework</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f5f5f5;padding:30px}
+.card{background:white;max-width:900px;margin:auto;padding:30px;border-radius:10px}
+h1{color:#1f4e79}
+.step{border-left:5px solid #1f4e79;padding:10px 15px;margin:12px 0;background:#f8fbff}
+ul{margin-top:5px}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Independent Data Integrity Validation Framework</h1>
+
+<h2>Business Vision</h2>
+<p>Create an independent validation framework that verifies dashboard accuracy and business rules regardless of whether dashboards are built using AI, Power BI, or other technologies.</p>
+
+<div class="step"><b>1. Scheduled Validation</b><br/>Run on demand or on a schedule.</div>
+<div class="step"><b>2. Collect Dashboard Values</b><br/>Python + Playwright securely opens the dashboard and captures values exactly as users see them.</div>
+<div class="step"><b>3. Collect Source Data</b><br/>Read Smartsheet and other approved source systems.</div>
+<div class="step"><b>4. Normalize Data</b><br/>Standardize dates, currencies, blanks, text and number formats.</div>
+<div class="step"><b>5. Field-by-Field Validation</b>
+<ul>
+<li>Missing records</li>
+<li>Incorrect values</li>
+<li>Truncated text</li>
+<li>Reworded descriptions</li>
+<li>Status/date mismatches</li>
+<li>Duplicate records</li>
+</ul>
+</div>
+
+<div class="step"><b>6. Business Rule Validation</b>
+<ul>
+<li>Quarterly budget request</li>
+<li>Cumulative approved spend</li>
+<li>Actual spend</li>
+<li>Remaining budget</li>
+<li>Quarter-over-quarter comparisons</li>
+<li>Timeline milestone validation (First Registration, First Patient Dosed, Future Assumptions)</li>
+</ul>
+</div>
+
+<div class="step"><b>7. Generate Validation Report</b><br/>Summarize discrepancies, quality metrics and impacted projects.</div>
+<div class="step"><b>8. Notify Team</b><br/>Email, Teams or Jira ticket when validation fails.</div>
+
+<h2>Phase Roadmap</h2>
+<ol>
+<li><b>Phase 1:</b> Validate current dashboard data.</li>
+<li><b>Phase 2:</b> Automate validation using Smartsheet APIs and business rules.</li>
+<li><b>Phase 3:</b> Reuse the framework for a financial governance dashboard. Claude may optionally generate narrative summaries, but validation remains independent.</li>
+</ol>
+
+<h2>Key Differentiators</h2>
+<ul>
+<li>Independent of AI implementation</li>
+<li>Reusable across dashboards</li>
+<li>Validates both data integrity and business logic</li>
+<li>Scalable enterprise architecture</li>
+<li>Produces auditable validation reports</li>
+</ul>
+
+</div>
+</body>
+</html>
