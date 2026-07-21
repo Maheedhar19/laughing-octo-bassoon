@@ -1,4 +1,3 @@
-Final
 let
     Token = "C869OUgvkJ5on8fSlYX7qerEKGkVxw0HA80ge",
 
