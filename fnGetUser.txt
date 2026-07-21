@@ -1,4 +1,3 @@
-fnGetUser
 (userId as nullable number) =>
 
 let
