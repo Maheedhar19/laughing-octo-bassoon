@@ -1,4 +1,3 @@
-fnFilteredEvents
 (sheetId as number,sinceDate as text) =>
 
 
