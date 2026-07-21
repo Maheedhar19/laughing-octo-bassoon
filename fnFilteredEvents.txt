@@ -1,0 +1,87 @@
+fnFilteredEvents
+(sheetId as number,sinceDate as text) =>
+
+
+let
+    Token = "C869OUgvkJ5on8fSlYX7qerEKGkVxw0HA80ge",
+
+    Body =
+        Json.FromValue(
+            [
+                // sheetIds = { sheetId },
+                sheetIds = { Text.From(sheetId) },
+                since = sinceDate
+            ]
+        ),
+
+   ResponseBinary =
+    Web.Contents(
+        "https://api.smartsheet.com",
+        [
+            RelativePath = "2.0/filteredEvents",
+            Headers = [
+                Authorization = "Bearer " & Token,
+                Accept = "application/json",
+                #"Content-Type" = "application/json"
+            ],
+            Content = Body,
+            ManualStatusHandling = {400,401,403,404,500}
+        ]
+    ),
+
+Response =
+    Json.Document(ResponseBinary),
+
+
+    Events =
+if Record.HasFields(Response, "data") then
+    Table.FromRecords(
+        List.Transform(
+            Response[data],
+            each
+                [
+                    objectId = Record.FieldOrDefault(_, "objectId"),
+                    action = Record.FieldOrDefault(_, "action"),
+                    eventTimestamp = Record.FieldOrDefault(_, "eventTimestamp"),
+                    userId = Record.FieldOrDefault(_, "userId")
+                ]
+        )
+    )
+else
+    #table({}, {}),
+
+    // Keep only sheet UPDATE events
+    UpdateEvents =
+        Table.SelectRows(
+            Events,
+            each
+                [objectId] = sheetId and
+                Text.Upper([action]) = "UPDATE"
+        ),
+
+    // Latest event first
+    Sorted =
+        Table.Sort(
+            UpdateEvents,
+            {
+                {"eventTimestamp", Order.Descending}
+            }
+        ),
+
+    Result =
+        if Table.RowCount(Sorted)=0 then
+            [
+                SheetID = sheetId,
+                LastModifiedTime = null,
+                LastModifiedBy = null
+            ]
+        else
+            [
+                SheetID = sheetId,
+                LastModifiedTime = Sorted{0}[eventTimestamp],
+                LastModifiedBy = Sorted{0}[userId]
+            ]
+
+in
+    
+    Result

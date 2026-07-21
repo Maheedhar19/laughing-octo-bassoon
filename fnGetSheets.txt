@@ -1,0 +1,27 @@
+fnGetSheets
+
+(folderId as number) =>
+
+let
+    Token = "C869OUgvkJ5on8fSlYX7qerEKGkVxw0HA80ge",
+
+    Source =
+        Json.Document(
+            Web.Contents(
+                "https://api.smartsheet.com",
+                [
+                    RelativePath = "2.0/folders/" & Text.From(folderId),
+                    Headers = [
+                        Authorization = "Bearer " & Token,
+                        Accept = "application/json"
+                    ]
+                ]
+            )
+        ),
+
+    Sheets = Source[sheets],
+
+    Table1 = Table.FromRecords(Sheets)
+
+in
+    Table1

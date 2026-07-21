@@ -1,0 +1,26 @@
+Final
+let
+    Token = "C869OUgvkJ5on8fSlYX7qerEKGkVxw0HA80ge",
+
+    Source =
+        Json.Document(
+            Web.Contents(
+                "https://api.smartsheet.com",
+                [
+                    RelativePath = "2.0/workspaces/7219413515560836",
+                    Headers = [
+                        Authorization = "Bearer " & Token,
+                        Accept = "application/json"
+                    ]
+                ]
+            )
+        ),
+
+    Folders = Source[folders],
+
+    FolderTable = Table.FromRecords(Folders),
+    #"Added Custom" = Table.AddColumn(FolderTable, "Sheets", each fnGetSheets([id])),
+    #"Expanded Sheets" = Table.ExpandTableColumn(#"Added Custom", "Sheets", {"id", "name", "permalink", "createdAt", "modifiedAt", "accessLevel"}, {"Sheets.id", "Sheets.name", "Sheets.permalink", "Sheets.createdAt", "Sheets.modifiedAt", "Sheets.accessLevel"}),
+    #"Added Custom1" = Table.AddColumn(#"Expanded Sheets", "GetEvent", each fnFilteredEvents([Sheets.id], [modifiedAt]))
+in
+    #"Added Custom1"
