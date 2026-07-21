@@ -1,5 +1,3 @@
-fnGetSheets
-
 (folderId as number) =>
 
 let
