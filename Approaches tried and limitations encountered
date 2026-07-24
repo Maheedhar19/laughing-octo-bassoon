@@ -1,0 +1,26 @@
+Approaches attempted
+
+1. Power Query (Excel/Power BI)
+
+Built a function to call Smartsheet's filteredEvents API per sheet, per day, using since/to date parameters.
+Iterated through multiple bug fixes: type mismatches between sheet IDs and event object IDs, date/time formatting issues, empty-result handling.
+Extended the design to batch multiple sheets and multiple days into fewer API calls, to reduce total call volume.
+Implemented cursor-based pagination handling to retrieve multi-page responses.
+
+2. Python script
+
+Rebuilt the same logic with more robust control: recursive sheet discovery across the workspace, batched API calls across sheets and date windows, retry logic with exponential backoff, and rate-limit handling per Smartsheet's documented 300 requests/minute limit.
+Added user-detail enrichment (name, email) with caching to avoid redundant lookups.
+Added a failed-request retry queue and de-duplication logic to maximize successful data capture.
+Limitation encountered
+
+Across every configuration tested — large batches, small batches, wide date ranges, narrow date ranges, and even the smallest possible request (1 sheet, 1 day) — the Smartsheet API intermittently returns a 500 Internal Server Error (Smartsheet's own generic backend error: "An unexpected error has occurred. Please contact the Support team").
+
+Key evidence this is not a client-side or design issue:
+
+The same sheet succeeds for one day's window and fails for the very next day's window, with an identical request shape and size.
+Reducing the request to the absolute minimum (1 sheet, 1 day) still produces the same error.
+This rules out data volume, batch size, or date range width as the cause — the standard fixes for API errors (smaller batches, retries, backoff, pagination handling) do not resolve it, because the failure is intermittent and originates on Smartsheet's server side, not from anything in the request.
+Conclusion
+
+This points to either a data/backend issue on specific sheets, an account/workspace-level instability, or an undocumented bug in Smartsheet's filteredEvents endpoint. None of these can be fixed from our side — no amount of additional Python or Power Query logic can guarantee reliable results if the API itself is intermittently failing at its smallest possible request size.
