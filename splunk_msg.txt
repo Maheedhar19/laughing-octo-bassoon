@@ -1,0 +1,26 @@
+Splunk Cloud API access — 401 Unauthorized, need service account or token
+
+
+
+I'm trying to pull event/log data from our Splunk Cloud instance programmatically (via REST API, to feed a Power BI report), and I'm blocked on authentication.
+
+Endpoint I'm calling:
+https://lilly-infosec.splunkcloud.com:8089/services/search/jobs
+
+Auth method tried: Basic Auth using my own Splunk username/password.
+
+Result: 401 Unauthorized.
+
+I also don't see a self-service option to generate an API token from my account (Settings > Tokens is not available/visible to me).
+
+This strongly suggests our Splunk Cloud instance is restricted to SSO-only authentication for personal accounts, which blocks direct REST API calls with a username/password.
+
+Need help with one of the following:
+1. Enable token-based authentication for my account, so I can generate an API token for programmatic access, or
+2. Provide a service account with API access to the relevant index, or
+3. If neither is possible, let me know the supported/approved method for pulling data from Splunk programmatically (e.g., an existing internal integration pattern other teams use).
+
+Also, if there's a different management/API hostname for this Splunk Cloud instance (separate from the search UI URL), please confirm the correct one — some Splunk Cloud setups isolate the REST API endpoint from the main search-head URL.
+
+This is time-sensitive — trying to get this resolved this week to hit a month-end delivery. Happy to jump on a call if that's faster.
+
