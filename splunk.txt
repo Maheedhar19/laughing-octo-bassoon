@@ -1,0 +1,80 @@
+let
+    SplunkHost = "https://lilly-infosec.splunkcloud.com:8089",  // confirm exact host with admin
+    Username = "your.username",
+    Password = "your_password",   // better: store securely, see note below
+
+    AuthHeader = "Basic " & Binary.ToText(
+        Text.ToBinary(Username & ":" & Password),
+        BinaryEncoding.Base64
+    ),
+
+    SearchQuery = "search index=smartsheet_events earliest=-90d 
+                   | table sheetId, action, eventTimestamp, userId, userName",
+
+    // Step 1: Create the search job
+    CreateJobResponse =
+        Web.Contents(
+            SplunkHost,
+            [
+                RelativePath = "services/search/jobs",
+                Headers = [
+                    Authorization = AuthHeader,
+                    #"Content-Type" = "application/x-www-form-urlencoded",
+                    Accept = "application/json"
+                ],
+                Content = Text.ToBinary(
+                    "search=" & Uri.EscapeDataString(SearchQuery) & "&output_mode=json"
+                )
+            ]
+        ),
+    JobJson = Json.Document(CreateJobResponse),
+    SID = JobJson[sid],
+
+    // Step 2: Poll until the job is done
+    WaitForJob = List.Generate(
+        () => [Attempt = 0, Done = false, StatusJson = null],
+        each [Attempt] < 30 and not [Done],   // max 30 tries, adjust if needed
+        each
+            let
+                StatusResponse =
+                    Web.Contents(
+                        SplunkHost,
+                        [
+                            RelativePath = "services/search/jobs/" & SID,
+                            Query = [output_mode = "json"],
+                            Headers = [
+                                Authorization = AuthHeader,
+                                Accept = "application/json"
+                            ]
+                        ]
+                    ),
+                StatusJson = Json.Document(StatusResponse),
+                IsDone = StatusJson[entry]{0}[content][isDone]
+            in
+                [
+                    Attempt = [Attempt] + 1,
+                    Done = IsDone,
+                    StatusJson = StatusJson
+                ],
+        each [Done]
+    ),
+    // Small pause built into pacing — Power Query doesn't have a native sleep,
+    // so if the job isn't done fast enough, increase max attempts above.
+
+    // Step 3: Fetch results once done
+    ResultsResponse =
+        Web.Contents(
+            SplunkHost,
+            [
+                RelativePath = "services/search/jobs/" & SID & "/results",
+                Query = [output_mode = "json", count = "0"],
+                Headers = [
+                    Authorization = AuthHeader,
+                    Accept = "application/json"
+                ]
+            ]
+        ),
+    ResultsJson = Json.Document(ResultsResponse),
+    ResultsTable = Table.FromRecords(ResultsJson[results])
+in
+    ResultsTable
