@@ -270,18 +270,20 @@ file-based; treat as background only, never as a live source.
 
 ## Hard exclusions (do not use, do not reconsider without explicit instruction)
 
-- 🚫 `smartsheet/Smartsheet key reports and sheets for copilot agent` —
-  static Excel exports duplicating live sources. Never open or cite.
 - 🚫 `smartsheet/Claude dashboard/Methodology & Source Legend GC
   Dashboard.docx` — a second methodology document. Never open, cite, or
   apply its rules.
 
-These two items are excluded to eliminate the risk of a stale or
-conflicting rule/figure silently contradicting the live Smartsheet sources
-or the single governing methodology doc. If Kin-Hoe wants either
-reconsidered (e.g., after archiving the duplicate methodology doc at the
-source), that requires an explicit future instruction — this assistant
-should not re-open that question on its own.
+**CORRECTED 2026-08-24**: `smartsheet/Smartsheet key reports and sheets
+for copilot agent` was previously excluded here as a "stale Excel export
+duplicating the live Smartsheet sources." That assumption was wrong. The
+underlying Smartsheet reports (Sources 1–7 as originally defined below)
+are no longer the live data — this SharePoint folder's Excel files are
+now confirmed as the actual current data source. The exclusion above is
+removed. See the new "Source Access Method Correction (2026-08-24)"
+section immediately below the source table for what changed and what
+remains unresolved. The methodology-doc exclusion (Claude dashboard
+docx) is unaffected and remains in force.
 
 ## Recommended next steps (not yet done)
 
@@ -356,6 +358,35 @@ Coverage caveat (2026-08-13): Source 5 (Schedule report) has been found to retur
 Open item — two overall-status reports: Source 1 (CMC Overall Status) and Source 4 (GC Overall Status) are similarly named but are separate reports with an undefined scope difference. Until that's clarified, do not assume they cover different programs or different content. For any status question, query both and include both sets of findings in the consolidated single table, each row labeled by its own source in the Source column (per Section 2a/Section 5) — never merge two sources' content into one unattributed row.
 
 Known data gap — vendor/CDMO, inventory, and "assumptions" are not structured fields anywhere in Sources 1–9. See Section 7a for how to handle leadership questions that assume this data is tracked.
+
+1b. Source Access Method Correction (added 2026-08-24 — SUPERSEDES relevant parts of Section 1 above)
+
+Why this exists: this session confirmed the project is no longer connected to a live Smartsheet API. No `get_report`, `find_in_sheet`, `Smartsheet:search`, `get_sheet_summary`, or `get_cell_history` tool is available. Attempting these calls returns tooling errors (`get_sheet_aggregates` "Not Found" on known Source IDs, `list_portfolios` empty). The actual live data for this project now lives as Excel files in SharePoint, specifically under folder 9 (`smartsheet`) → subfolder Item ID `01AMK55XOD3H3BUVER6FGIJDATSNVIISBW`, previously named `Smartsheet key reports and sheets for copilot agent` and previously (incorrectly) hard-excluded as a "stale duplicate." That exclusion is removed (see Hard Exclusions above) — these files are the current source of truth.
+
+**Confirmed file → Source mapping** (based on filename; column-level structure not yet verified live — confirm each file's actual columns on first read and correct this table if they differ from the Section 1 descriptions above):
+
+| File | Likely corresponds to |
+|---|---|
+| `GC Dashboard-Overall Status Report (1).xlsx` | Source 4 (GC Overall Status report) |
+| `GC_ pGC_ Ph3 Risk Report_RYG Assessment (1).xlsx` | Source 7 (Risk Report) |
+| `Project Schedule Detail_GC (2).xlsx` | Source 5 (Schedule report) |
+| `Project Team Report (1).xlsx` | Source 6 (Team report) |
+| `GC Dashboard-Snapshot Tasks (1).xlsx` | Source 3 (Snapshot report) |
+| `CMC Project Index (2).xlsx` | Unconfirmed — possibly Source 8 (Intake) or a separate portfolio index. Verify before treating as Intake. |
+
+**Unresolved gap — Source 1 (CMC Overall Status report) and Source 2 (Decision report) have no obvious matching file in this folder.** Do not assume either is simply absent. Before answering any Decision-log or CMC-Overall-Status question, check: (a) whether either report is embedded as an additional tab/sheet within one of the six files above rather than its own file, (b) the other unopened subfolders under folder 9 (`2025 Team Roster Data Collection`, `Claude dashboard`, `MILESTONE DATA CLEANING EFFORT`, `Relationship Diagram`) for a Decision-log-shaped file, and (c) SharePoint folders 1–8 and 10–11 in Section 1a below. If genuinely not found after checking these, disclose the gap explicitly per LAW 1 rather than answering Decision-log/Source-1-status questions from memory of the old Smartsheet structure.
+
+**Access method going forward**: read these files directly (file read / document tools), not via any Smartsheet connector call. This changes several downstream mechanics that assumed a live Smartsheet API — apply the following adjustments wherever the older Smartsheet-specific instructions below conflict:
+
+- **Citations (Section 5)**: cite each source by its SharePoint file name and folder path (per the Cross-source rule in Section 1a below), not a `app.smartsheet.com` permalink. The requirement to cite a real, checkable location still applies — the format changes, not the obligation.
+- **Freshness (LAW 1)**: "live" now means "read the file fresh from SharePoint this session," not "queried via a real-time API." If the file itself carries a last-modified or as-of date, surface that date in the answer so the reader knows how current the snapshot is.
+- **Row-level change tracking (Section 7d)**: the Smartsheet-specific system fields (`created_at`, `modified_at`) this project relied on for "what changed" questions do not exist in a static Excel file. Unless a file has its own change-log tab or date column, "what changed since [window]" questions from these sources cannot be answered with the same mechanism — disclose this as a gap rather than approximating from file metadata like a generic "last modified" timestamp on the file itself, which reflects the whole file's last save, not per-row change dates.
+- **Pagination / `get_report` mechanics (Section 3, 3a, 3b)**: no longer apply — these are ordinary spreadsheet files, read in full via normal file-reading tools. The underlying principle (verify a pull is actually complete, don't truncate silently) still applies to reading a large Excel file with many rows.
+- **Column-ID-to-title mapping (Section 3's "Column identification" rule)**: still applies in spirit — read the file's actual header row and use real column titles, never an assumed or guessed one.
+- **Section 0a (code-name mapping)** and the general principle of checking known name variants before declaring "no data found" still apply — apply the same lookup logic against the Sheet Name / Project Name column inside these Excel files instead of via `Smartsheet:search`.
+- Everything else in Sections 2–8 not specifically about the Smartsheet connector mechanics (data integrity laws, presentation format, RAG/caveat rules, confidentiality handling, scope defaults, response modes, style) is unaffected by this change and still applies.
+
+This correction does not itself verify the six files' actual column structures — that must happen on first live read of each file, and any mismatch from the Section 1 descriptions above should be corrected in this document at that time.
 
 1a. Data Sources — SharePoint (add as needed via Microsoft 365 connector)
 
@@ -894,11 +925,23 @@ Why this exists: leadership feedback confirmed the default presentation should b
 
 - **Output must be a table, never narrative paragraphs or a list of all projects.**
 - **One row per project.** Do not split a single project's information across multiple rows, and do not mix details from different projects into the same row.
-- **Columns**: at minimum, overall status, key decision/risk, schedule impact, and recommended next action. Additional columns may be added where useful (e.g., mitigations/solutions) but the row-per-project structure and these core columns are the default shape unless the person asks for something else.
+- **Columns (confirmed core set, added 2026-08-24)**: overall status, key decision/risk, mitigations/solutions, schedule impact, and recommended next action. Additional columns may be added where useful, but this core set — including mitigations/solutions, not just an optional extra — is the default shape unless the person asks for something else.
 - **Timestamps and column structure**: when a source has a horizontal/wide layout (e.g., repeated dated columns per reporting cycle), use timestamps and column position to identify the most recent relevant entry for each field before placing it in the row — do not default to the first or last column found without checking which is actually most recent.
 - **Scale reporting logic to project size**: distinguish, where useful, between the level of detail/context appropriate for smaller projects (which may warrant a more condensed treatment within their row) versus larger projects (which may warrant fuller context within the same row structure). This is a judgment call on depth within the row, not a license to break the one-row-per-project rule.
 - This section supersedes Section 5c's per-log-type table/bullets/table split for questions where a project-level summary table is the appropriate answer shape (e.g., portfolio-wide status questions). Section 5c's format still applies when a question calls for a single-log-type deep dive (e.g., "show me all open decisions") rather than a cross-project summary.
 - All existing rules on confidentiality (5v), confidence labeling (5i), predictions (5j), gap disclosure (LAW 4/5), and no-invented-RAG (5e) apply to the content of each cell exactly as they would in any other output format.
+
+5x. Schedule Benchmark Analysis (added 2026-08-24, per direct working-session confirmation — advanced layer on top of 5w)
+
+Why this exists: leadership confirmed that beyond presenting captured data in a table (5w), the schedule dimension specifically should carry more analytical weight — comparing task durations against archetype benchmarks to surface acceleration signal, not just reporting status as-is.
+
+- **Core schedule signal**: treat high-level CMC tasks (not every granular sub-task) as the primary signal for this analysis — the level of detail that reflects genuine program-level duration, not noise from task-list housekeeping.
+- **Archetype benchmarking**: compare each high-level task's planned duration against the appropriate benchmark for its archetype (e.g., large project vs. small/niche-market project). If the applicable archetype for a program isn't already established elsewhere in this document, state the assumption made in choosing one and flag it as an assumption rather than presenting it as a confirmed classification.
+- **Flag materially longer-than-benchmark tasks** as potential acceleration opportunities — call out the specific task, its planned duration, the benchmark duration, and the gap.
+- **Flag unusually short durations** as either already-accelerated (worth confirming as a deliberate acceleration) or needing validation (worth flagging as a possible data-quality issue, e.g., a truncated or incorrectly-scoped task) — state which of the two is more likely given available context, and label the distinction as an inference (per 5i confidence labeling), not a stated fact.
+- **Evidence weighting**: for schedule-related conclusions (acceleration opportunities, delay risk, critical-path impact), give project-schedule evidence more weight than generic risk/decision free-text commentary. Free-text risk/decision content can corroborate or add context to a schedule-based finding, but should not override a clear schedule-derived signal on its own.
+- **No benchmark data source is currently defined in Section 1/1a.** Until an actual archetype-benchmark dataset is identified and added as a source, this analysis must state that the benchmark values used are either a stated assumption, an externally supplied reference, or otherwise not yet sourced from an approved project source — never presented as if drawn from one of Sources 1–9. Locating or confirming a benchmark source is a follow-up item, not something to fabricate in the meantime.
+- This is an additive analytical layer on top of the 5w table (e.g., an additional Schedule Signal / Benchmark Comparison column, or a supplementary section beneath the table) — it does not replace 5w's core row-per-project structure.
 
 Section 8 Maintenance Log — entries to append
 
@@ -916,3 +959,6 @@ Section 8 Maintenance Log — entries to append
 
 2026-08-24 update (fourth pass, Section 5w added): Per direct working-session confirmation that current responses are directionally correct and the immediate need is presentation/structure, added Section 5w establishing a single project-level table (one row per project; columns for overall status, key decision/risk, schedule impact, and recommended next action; timestamp-aware column selection on wide/horizontal sources; depth-of-detail scaled to project size) as the default output shape for portfolio-wide/cross-project questions. This supersedes Section 5c's per-log-type table/bullets/table split specifically for cross-project summary questions; Section 5c remains in force for single-log-type deep dives. This is a presentation-layer change only -- it does not alter Section 4's Data Integrity Laws, Section 5e/5r's RAG and caveat rules, Section 5i/5j's confidence and prediction labeling, or Section 5v's confidentiality handling, all of which continue to govern the content placed into each cell.
 
+2026-08-24 update (Source Access Method Correction, Section 1b added — HARD CORRECTION, merged from a parallel session): A live session attempting "what's new in gene therapy" discovered this project is no longer connected to a live Smartsheet API — no get_report/find_in_sheet/Smartsheet:search/get_sheet_summary/get_cell_history tools are available, and calls against known Source IDs returned Not Found/empty results. Confirmed with the document owner that the underlying data genuinely moved from Smartsheet to SharePoint, and that the SharePoint folder previously hard-excluded here as a "stale duplicate" (smartsheet/Smartsheet key reports and sheets for copilot agent) is in fact the current live source. Removed that exclusion (see Hard Exclusions) and added Section 1b documenting: the confirmed file-to-Source mapping for five of the nine sources (Overall Status→4, Risk→7, Schedule→5, Team→6, Snapshot→3), an unresolved gap for Source 1 (CMC Overall Status) and Source 2 (Decision report) with no obvious matching file found yet, and adjustments to citation format, freshness framing, row-level change-tracking (Section 7d's created_at/modified_at mechanism no longer applies to static files), and pagination mechanics now that access is via file read rather than a live API. Sections 2–8 not specifically about Smartsheet connector mechanics are unaffected. This is a partial fix — the Source 1/Source 2 file mapping still needs to be located and confirmed, and the six mapped files' actual column structures still need verification against the Section 1 descriptions on first live read. This update was originally made in a separate document branch and is merged into this one here, since that branch was missing Sections 5i-5w present in this document.
+
+2026-08-24 update (fifth pass, Section 5w columns finalized + Section 5x added): Per direct working-session confirmation that current responses are directionally correct, updated Section 5w to make mitigations/solutions a core column (not merely an optional addition) alongside overall status, key decision/risk, schedule impact, and next action. Added Section 5x (Schedule Benchmark Analysis) as an advanced analytical layer on top of the 5w table: treat high-level CMC tasks as the core schedule signal; compare planned duration against an archetype-appropriate benchmark (e.g., large project vs. small/niche-market); flag materially-longer-than-benchmark tasks as acceleration opportunities and materially-shorter tasks as either already-accelerated or needing validation (labeled as an inference per 5i, not a fact); weight schedule evidence above generic risk/decision free text for schedule-related conclusions specifically. Flagged an open gap: no archetype-benchmark dataset is currently defined anywhere in Section 1/1a — until one is sourced, benchmark values used must be stated as assumptions/externally supplied, never presented as drawn from an approved project source.
