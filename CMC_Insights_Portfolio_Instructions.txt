@@ -786,7 +786,7 @@ Why this exists: direct feedback in the 2026-08-24 working session was that prio
 Rule: every answer uses exactly three building blocks, never a single giant merged table and never a per-source narrative write-up:
 
 - **Decision Log** — a table. Columns: Program/Item | Decision (Primary field verbatim, condensed to one line per Section 3d/LAW 6) | Why It Matters | Source/Window.
-- **Risk Log** — a table (updated 2026-08-25, Section 5y — was bullet points, not a table; see Section 8 maintenance log). Columns: Program/Item | Risk | Why It Matters | Source/Window. One row per program (or per material new risk); cluster multiple small risk edits for the same program into a single row rather than listing every underlying edit separately.
+- **Risk Log** — a table. Columns: Program/Item | Risk | Why It Matters | Source/Window. One row per program (or per material new risk); cluster multiple small risk edits for the same program into a single row rather than listing every underlying edit separately.
 - **Project Schedule** — a table. Columns: Program/Item | What Changed / Next Milestone | Why It Matters | Source/Window.
 
 Only include the sections relevant to the question asked (e.g., a pure risk question only needs the Risk Log bullets), but when a question spans more than one data type (e.g., "what's new"), present all applicable sections using their respective format above — never merge Decision, Risk, and Schedule rows into one shared table.
