@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Splunk Team Discussion Summary — Power BI Connectivity Request</title>
+<style>
+  :root {
+    --navy: #1F3864;
+    --accent: #2F5496;
+    --red: #C00000;
+    --green: #2E7D32;
+    --gray-bg: #F4F6F8;
+    --border: #D9DEE4;
+    --text: #262B33;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+    line-height: 1.55;
+    background: #ffffff;
+  }
+  h1 {
+    color: var(--navy);
+    font-size: 26px;
+    margin-bottom: 4px;
+  }
+  .subtitle {
+    color: #667085;
+    font-size: 15px;
+    margin-bottom: 28px;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 32px;
+  }
+  .meta span {
+    background: var(--gray-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 13px;
+    color: #475467;
+  }
+  h2 {
+    color: var(--navy);
+    font-size: 19px;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 6px;
+    margin-top: 40px;
+    margin-bottom: 14px;
+  }
+  h3 {
+    color: var(--accent);
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  p { margin: 0 0 12px; }
+  ul { margin: 0 0 12px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .callout {
+    background: #FDEDEC;
+    border-left: 4px solid var(--red);
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin: 18px 0;
+  }
+  .callout strong { color: var(--red); }
+  .callout-green {
+    background: #EAF5EC;
+    border-left: 4px solid var(--green);
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin: 18px 0;
+  }
+  .callout-green strong { color: var(--green); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 20px;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: var(--navy);
+    color: #fff;
+    font-weight: 600;
+  }
+  tr:nth-child(even) td { background: var(--gray-bg); }
+  .badge {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .badge-blocked { background: #FDEDEC; color: var(--red); }
+  .badge-open { background: #EAF5EC; color: var(--green); }
+  .badge-pending { background: #FFF4E5; color: #B15C00; }
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    font-size: 12px;
+    color: #98A2B3;
+  }
+</style>
+</head>
+<body>
+
+  <h2>1. What we were asking for</h2>
+  <p>
+    Our team wanted a Splunk endpoint so Power BI could connect and build dashboards showing Smartsheet
+    activity — specifically, who is viewing vs. editing sheets, at a per-workspace / per-project / per-sheet level,
+    over a rolling 90-day window. This was requested by CMC PMs to track update/view activity on RTM-related
+    Smartsheets across ~140 projects.
+  </p>
+  <p>
+    Note: this is not a data export from Splunk — Power BI would only be reading/visualizing data already
+    indexed in Splunk, not extracting it elsewhere.
+  </p>
+
+  <h2>2. Splunk team's response</h2>
+  <div class="callout">
+    <strong>Direct answer: No.</strong> The Splunk team will not provide an outbound endpoint/connection that lets
+    external tools (Power BI) pull data out of Splunk.
+  </div>
+  <h3>Why</h3>
+  <ul>
+    <li>This specific Splunk environment onboards data from <strong>400+ different source systems</strong>, some of which contain sensitive data — access is intentionally locked down.</li>
+    <li>Splunk's role here is <strong>data onboarding only</strong>: they ingest data in, they do not support pulling data back out to external platforms.</li>
+    <li>This is a <strong>security/InfoSec policy decision</strong>, not a resourcing or technical-capability issue on their side.</li>
+    <li>A similar request was recently made by the <strong>Databricks</strong> team (wanting a Splunk-to-Databricks connection for monitoring) — that was also declined for the same reason.</li>
+    <li>This environment is specifically used by <strong>GCDO (Global Cyber Defense)</strong> for security/audit purposes, which is part of why it's tightly restricted.</li>
+  </ul>
+
+  <h3>What Splunk can do instead</h3>
+  <ul>
+    <li>Apply <strong>transforms</strong> to data already in Splunk (e.g., rename fields) — but cannot add, remove, or reshape fields.</li>
+    <li>Support building dashboards <strong>natively within Splunk</strong> on top of indexed data (their own dashboarding tools), rather than exporting to Power BI.</li>
+    <li>Suggested that a separate Splunk environment — <strong>ACS (with Splunk Observability)</strong> — may be better suited for this kind of monitoring/dashboarding use case, though this wasn't confirmed.</li>
+  </ul>
+
+  <h2>3. Root cause behind the original ask</h2>
+  <p>
+    The underlying need — Smartsheet activity timestamps (who's viewing/editing) — exists because the
+    <strong>Smartsheet API is not currently usable directly</strong> as a data source for this. That's why the data
+    path was originally set up as <em>Smartsheet → Splunk</em>, and the team then wanted <em>Splunk → Power BI</em>
+    to visualize it. The Splunk team's position blocks that second leg.
+  </p>
+
+  <h2>4. Open items / suggested next steps</h2>
+  <table>
+    <tr><th>Item</th><th>Detail</th><th>Status</th></tr>
+    <tr>
+      <td>Splunk → Power BI direct connection</td>
+      <td>Confirmed not supported due to InfoSec/security policy</td>
+      <td><span class="badge badge-blocked">Blocked</span></td>
+    </tr>
+    <tr>
+      <td>Check with Smartsheet vendor</td>
+      <td>Splunk team suggested looping in the Smartsheet vendor to see if they can help expose the needed data via their own API</td>
+      <td><span class="badge badge-open">Follow-up needed</span></td>
+    </tr>
+    <tr>
+      <td>Explore ACS / Splunk Observability environment</td>
+      <td>Possible alternative environment with more monitoring/dashboarding flexibility — not yet confirmed as viable</td>
+      <td><span class="badge badge-pending">To investigate</span></td>
+    </tr>
+    <tr>
+      <td>Native Splunk dashboarding</td>
+      <td>Fallback option: build the required views directly in Splunk instead of Power BI</td>
+      <td><span class="badge badge-open">Available now</span></td>
+    </tr>
+  </table>
+
+  <h2>5. Bottom line </h2>
+  <p>
+    Power BI cannot be directly connected to this Splunk environment — this is a firm security/InfoSec position,
+    not a technical or resourcing gap, and a comparable request from another team (Databricks) was declined on
+    the same grounds. To get the 90-day view/edit activity data CMC PMs need, the realistic paths forward are:
+    (1) build the dashboard natively in Splunk, (2) investigate whether the Smartsheet vendor can expose the
+    required activity data via their own API, or (3) evaluate the separate ACS/Observability Splunk environment
+    for a possible alternative.
+  </p>
+
+</body>
+</html>
