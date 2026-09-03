@@ -1,0 +1,1151 @@
+# SharePoint Source Inventory — PDPM Staff Site
+_(Context file — upload to Project Knowledge Base alongside the methodology doc)_
+
+**Purpose**: This is the detailed, folder-by-folder record behind the
+condensed Section 1a entry added to the methodology doc on 2026-08-20. Use
+this file to avoid re-crawling the SharePoint site from scratch in a future
+session — it records what was found, at what depth, and what remains
+unexplored.
+
+**Site**: `PDPM Staff` — `https://collab.lilly.com/sites/PDPMStaff`
+**Library**: Shared Documents (`All Documents` view)
+**Graph driveId**: `b!ZceuR2WMyEySWtwYguXWzALdY_J8J2RFg909CL7d-LyY74FACMUwS7R0b0UCaplc`
+**Evaluation date**: 2026-08-20
+**Evaluation depth**: Directory/file listing only (`read_resource` folder
+browse, 1–2 levels deep in most cases). No document content was opened or
+extracted. Nothing in this file should be cited as a verified fact from a
+document — only as "this folder/file exists and appears to contain X based
+on its name and location."
+
+**Scope note**: The full library has ~38 top-level folders and 700+ items.
+Only the 11 folders judged plausibly relevant to CMC/GC portfolio work were
+evaluated (user-selected: "likely relevant" + "possibly relevant" tiers).
+The remaining ~27 folders (Job Description, WFH Shared Materials, NIFS 500
+Mile Challenge, Continuous Learning Forum, Monthly Staff Meeting, MIH
+Townhalls, AI Tips and Tricks, Gov slide deck examples, Budget Monitor and
+Control, Tariff Assessments, etc.) were seen in the root listing but not
+opened — they read as administrative/HR/culture content, not portfolio
+data, and are excluded from this inventory.
+
+---
+
+## Folder-by-folder detail
+
+### 1. SMDD Business Planning CMC PM
+Item ID: `01AMK55XOIZVN6N3G3SRDIJYVSZA5SEWCR`
+- `CMC PM 2025 Business Planning_DRAFT.pptx`
+- `CMC PM 2026-2027- SMDDbusinessplanning.pptx`
+- `SDleadteamexamples.pptx`
+- `SMDDbPtemplate.pptx`
+
+**Assessment**: Strategic planning decks by year. Narrative/strategy
+content — themes, priorities, examples — not structured portfolio data.
+Useful only for "what was the stated CMC PM business planning direction for
+[year]" type questions, and only as narrative, not as queryable fields.
+
+### 2. SMDD Project Detailed Planning
+Item ID: `01AMK55XIAK6YNC2HTQZEK2WCCTC3UB654`
+- `GG917` (subfolder): dated PDFs (2024-09-02/03/04) and MS Project exports
+  (`2024-10-25 GG917 Update.mpp`, `2024-12-02 GG917 Update.mpp`,
+  `GG917.mpp`)
+- `GLP-1 NPA II` (subfolder, contents not drilled further)
+
+**Assessment**: Per-program **static, dated schedule snapshots** (MS
+Project + PDF). Genuinely useful as historical detail for specific programs
+if the live Smartsheet canonical sheet is thin — but every citation must
+carry the export date and be labeled static, never presented as current.
+Not a substitute for a live schedule pull under Section 3 fetch rules.
+
+### 3. Portfolio Requests
+Item ID: `01AMK55XNQPEWZPSHVNRG3MORTX5Z3GSJQ`
+- `14Feb2020_2020-21 C14 Study Requests.xlsx`
+- `Export SMDD Projects.xlsx`
+- `FTE Summary_23Jul2024.pptx`
+- `Peds portfolio.pptx`
+- `Portfolio Impact by Project_20200318.pptx`
+- `Portfolio Projects 2022.xlsx`
+
+**Assessment**: Vintage 2020–2024 exports/decks. Historical-reference value
+only; nothing here is current. Do not use for present-day portfolio
+composition questions.
+
+### 4. Portfolio Support
+Item ID: `01AMK55XMSHRW5GAIUDZDKX3KOXZKQXYPT`
+- `Accelerate Reach & Scale` (subfolder)
+- `Donanemab` (subfolder)
+- `Finance Strategic Plan Request` (subfolder)
+- `Portfolio Impact - 1404` (subfolder)
+- `Prism Timecard` (subfolder)
+- `Staff Meetings` (subfolder)
+- `Terminated project template` (subfolder)
+- `2025 BP draft May 7 2024.pptx`
+- `Confer OneNote Files.onepkg`
+- `Copy of CMC Activity p(S) - 2024 BP (2023-07-31) YZ immu Neuro.xlsx`
+- `Job Aid to find CMC PM for Programs (Polaris Access Required).pdf`
+
+**Assessment**: Mixed org-support content. The "Job Aid to find CMC PM for
+Programs" PDF is potentially a useful pointer for CMC PM lookups, but it
+explicitly requires Polaris access this connector does not have — flag as
+unusable rather than guessing its content. Program-specific subfolders
+(Donanemab, Accelerate Reach & Scale) were not drilled into.
+
+### 5. Ph3-Enabling
+Item ID: `01AMK55XI4JFZBZ3TC3RGZECFJNLKUYLUN`
+- Yearly meeting-archive folders: `2019 Meetings` through `2026 Meetings`
+- `Ad-hocs History.xlsx`
+- `Historical Spend.xlsx`
+
+Drilled into `2026 Meetings`:
+- `Q1 Meeting`, `Q2 Meeting`, `Q3 Meeting` (subfolders), `Q4 Meeting` (empty)
+- `2026 P3E Activity Schedule.xlsx`
+
+**Assessment**: Governance-meeting archive (agendas/decks/minutes) for the
+Ph3-Enabling (P3E) process, going back to 2019. Complements the Decision
+report's "P3E Decision" category (Source 2) and the existing
+`cmc-p3e-slide-formatter` skill / P3E Portfolio Tracker Smartsheet
+(`3702488224976772`). The quarterly meeting subfolders were not opened
+individually — worth a follow-up pass if P3E-specific questions become
+common.
+
+### 6. PAI Team
+Item ID: `01AMK55XI5IWUADN66KNAZF3K2FJWITRPJ`
+- `Archived` (subfolder, not drilled into)
+- `2026 500 Mile Challenge - CMC Teams & Tracker.xlsx`
+
+**Assessment**: Mostly a wellness-challenge tracker, not portfolio data.
+Low relevance; `Archived` subfolder unexplored in case something else is
+filed there.
+
+### 7. Business Planning
+Item ID: `01AMK55XNRQRQ4BSBISNDZQ2TZ2BXS5NTS`
+- `2027-2028` (subfolder, not drilled into)
+- `2026 BP draft.pptx`
+- `BP 101 Intro Deck.pptx`
+- `BP capabilities theme multiple CS enter phase 1.xlsx`
+- `businessplanningtemplate.pptx`
+- `CMC PM 2026 Business Planning_Early Phase Platform pre-read f.pptx`
+- `CMC PM 2026 Business Planning_Early Phase Platform.pptx`
+- `Copy of Development expenses.xlsx`
+- `Portfolio for BP.pptx`
+- `SMDD BP July 10 SMRT.pptx`
+
+**Assessment**: Yearly business-planning decks and templates, plus an
+expense sheet. Narrative/strategic content, not structured fields.
+
+### 8. Planning
+Item ID: `01AMK55XOUGEKHDML6DRFI24XSTTMT4EQJ`
+- `EP Studies.xlsx` (only file)
+
+**Assessment**: Single file — an Early Phase studies list. Notable because
+Sources 1/4 (Overall Status reports) explicitly exclude Phase 1/EP
+programs — this could plug that scope gap for EP-specific questions, but
+its column structure hasn't been confirmed. Confirm columns on first live
+read before relying on it.
+
+### 9. smartsheet (highest-value folder in this pass)
+Item ID: `01AMK55XI7ZV3N2UQNXZF2EOBLQ4VVCWJM`
+
+Top-level contents:
+- `2025 Team Roster Data Collection`
+- `Claude dashboard`
+- `Claude skill`
+- `CMC SMARTSHEET NEWSLETTER`
+- `MILESTONE DATA CLEANING EFFORT`
+- `Project Schedule Training`
+- `Project Team Training`
+- `Relationship Diagram`
+- `Smartsheet key reports and sheets for copilot agent`
+- `SMARTSHEET OFFICE HOURS - Meeting Minutes`
+
+**`Smartsheet key reports and sheets for copilot agent`**
+Item ID: `01AMK55XOD3H3BUVER6FGIJDATSNVIISBW`
+- `CMC Project Index (2).xlsx`
+- `GC Dashboard-Overall Status Report (1).xlsx`
+- `GC Dashboard-Snapshot Tasks (1).xlsx`
+- `GC_ pGC_ Ph3 Risk Report_RYG Assessment (1).xlsx`
+- `Project Schedule Detail_GC (2).xlsx`
+- `Project Team Report (1).xlsx`
+
+🚫 **PROHIBITED — do not open, read, cite, or otherwise use any file in this
+subfolder, for any purpose.** These are static Excel exports mirroring
+canonical Sources 1/3/4/5/6/7. This project's own history already
+established "migration to live Smartsheet pulls only" for exactly this
+reason — there is no legitimate "historical reference" use case that
+outweighs the conflict risk of a stale duplicate sitting alongside the live
+source. Treat this subfolder as excluded from the SharePoint source
+entirely: do not browse it further, do not fall back to it if a live
+Smartsheet pull fails, do not reference its column structure.
+
+**`MILESTONE DATA CLEANING EFFORT`**
+Item ID: `01AMK55XNM7SJNX57KJZFLYQQT2JY67QEY`
+- `Milestone Data Cleaning_ Scenario 1 (No Milestones).mp4`
+- `Milestone Data Cleaning_Scenario 2 (PRISM only).mp4`
+- `Milestone Data Cleaning_Scenario 3 (both sections).mp4`
+
+Training videos, not data. Directly relevant background for the documented
+100% flat-Milestone-vs-task-level mismatch (Section 7a/7c) — worth
+referencing as "why this happens" context in an answer, not as a citable
+source.
+
+**`Claude dashboard`**
+Item ID: `01AMK55XJY3O3FZG4ATFG272R3G3ZZOTZZ`
+- `cmc_risk_dashboard (3).html`
+- `CMC-Portfolio-Dashboard-138prog (20) (2).html`
+- `Methodology & Source Legend GC Dashboard.docx`
+
+Contains a **parallel methodology document** (`Methodology & Source Legend
+GC Dashboard.docx`). 🚫 **PROHIBITED — never read this file or apply rules
+from it.** This project has exactly one methodology document (the one this
+inventory accompanies, maintained in the Project Knowledge Base). A second
+methodology file in SharePoint is a conflict risk to be avoided outright,
+not a source to reconcile against — do not open it "just to compare," do
+not merge its rules in, and do not treat it as authoritative under any
+circumstance. Resolving its existence (e.g., archiving/deleting it at the
+source) is a manual action for Kin-Hoe outside this assistant's scope.
+
+**`Claude skill`**
+Item ID: `01AMK55XORQVPZVYJ3O5AJVH75T7OWMFEO`
+- `CMC_Claude_Timeline_Generation_Guidance Notes.pdf`
+- `CMC_Report_Excel_Setup_Guidance Notes.pdf`
+- `cmc-pm-lookup.html`
+- `cmc-timeline-pptx_skill_07.28.2026.skill`
+- `NEW_CLAUDE SKILL TEST_PPT DECK.pptx`
+
+**`Relationship Diagram`** (subfolder of `smartsheet`)
+Item ID: `01AMK55XOA4ZLRWBZ4KNC2FAAGQEOKHYNH`
+- `BACKUP`, `COMPLETED` (subfolders)
+- `Olomorasib`, `Pirto ITP`, `TREM2 Ab` (per-program subfolders)
+- `SAMPLE GENERATED POWERPOINT TIMELINES` (subfolder)
+- `Smartsheet Timestamp` (subfolder)
+- `Adu-FcRn timeline 01292026 V3.mpp`
+- `CALK1_siRNA_CMC_Timeline_.pptx`
+- **`cmc-timeline-pptx-SKILL..md`**
+- `Epiregulin_siRNA_CMC_Timeline_v3_6.pptx`
+- `IL6 timeline 03142026 (Clazakizumab).mpp`
+- `Lepodisiran_CMC_Timeline.pptx`
+- `QM-GG_Effort_1_CMC_Timeline_20260611184057.pptx`
+
+⭐ **Key finding**: `Claude skill` + `Relationship Diagram` together contain
+a full backup of the `cmc-timeline-pptx` skill (`.skill` file +
+`.md` source), which is **not currently present** in the live
+`/mnt/skills/user/` filesystem in this Claude environment, and per-program
+timeline PPTX outputs the skill previously generated (TREM2 Ab, CALK1_siRNA,
+Epiregulin_siRNA, Lepodisiran, QM-GG Effort 1). **This SharePoint location
+appears to be a manual/out-of-band backup for skills that don't reliably
+persist between Claude sessions** — directly relevant to the open
+"Operational flag" in the methodology doc's Section 8 maintenance log about
+skills disappearing between sessions (`cmc-portfolio-snapshot-diff` and
+`cmc-smartsheet-writeback` were noted missing in a prior session). If a
+referenced skill is missing in a future fresh chat, check here before
+recreating it from scratch — this may already hold a working copy.
+
+**Not drilled into** (listed at top level only): `2025 Team Roster Data
+Collection`, `CMC SMARTSHEET NEWSLETTER`, `Project Schedule Training`,
+`Project Team Training`, `SMARTSHEET OFFICE HOURS - Meeting Minutes`. These
+read as admin/training content based on their names; a follow-up pass could
+open them if a specific need arises.
+
+### 10. CMC PM Office Hours
+Item ID: `01AMK55XJUGPWJ45ZUJ5GIR5LNCKDXPEAI`
+- `CMC PMs Experience` (subfolder)
+- `Office Hour Kickoff` (subfolder)
+
+**Assessment**: Onboarding/training content for CMC PMs. Background/role
+context only — not portfolio data.
+
+### 11. Terminated assets - Information
+Item ID: `01AMK55XPO4LASAXBWXRHLVKCSWSSVUB2D`
+- `BMP6` (subfolder)
+- `Ferroportin mAB (LA475, LY292805)` (subfolder)
+- `Hepcidin mAb (LA474)` (subfolder)
+- `Material to Destroy` (subfolder)
+- `Termination Templates and Tools` (subfolder)
+
+**Assessment**: Per-terminated-program detail. Useful supplementary context
+when a leadership question concerns a specific terminated program beyond
+what the Intake sheet's `Status = Terminated` flag shows — but static,
+file-based; treat as background only, never as a live source.
+
+---
+
+## Hard exclusions (do not use, do not reconsider without explicit instruction)
+
+- 🚫 `smartsheet/Claude dashboard/Methodology & Source Legend GC
+  Dashboard.docx` — a second methodology document. Never open, cite, or
+  apply its rules.
+
+**CORRECTED 2026-08-24**: `smartsheet/Smartsheet key reports and sheets
+for copilot agent` was previously excluded here as a "stale Excel export
+duplicating the live Smartsheet sources." That assumption was wrong. The
+underlying Smartsheet reports (Sources 1–7 as originally defined below)
+are no longer the live data — this SharePoint folder's Excel files are
+now confirmed as the actual current data source. The exclusion above is
+removed. See the new "Source Access Method Correction (2026-08-24)"
+section immediately below the source table for what changed and what
+remains unresolved. The methodology-doc exclusion (Claude dashboard
+docx) is unaffected and remains in force.
+
+## Recommended next steps (not yet done)
+
+1. **Verify** whether `cmc-timeline-pptx_skill_07.28.2026.skill` /
+   `cmc-timeline-pptx-SKILL..md` from `smartsheet/Claude skill` and
+   `smartsheet/Relationship Diagram` should be restored into
+   `/mnt/skills/user/` in a fresh session. (This is unrelated to the two
+   hard exclusions above and remains fine to use.)
+2. **Open-document pass**: this inventory is directory-level only. If any
+   specific file above (other than the two hard exclusions) becomes
+   relevant to a leadership question, read it directly via
+   `read_resource` before citing its content, and cite it with its
+   SharePoint location per the Cross-source rule.
+3. **P3E quarterly meeting folders** (`Ph3-Enabling/2026 Meetings/Q1–Q3`)
+   were not opened — worth a follow-up if P3E decision detail is needed
+   beyond what the Decision report captures.
+
+CMC Data Assistant — Methodology & Data Integrity Rules
+
+(Upload this as a file in the Project's Knowledge Base)
+
+Purpose
+
+Answer leadership questions about the GC/pGC/Ph3 CMC portfolio using live data only. This document is the operating manual — it replaces having to re-explain query logic in every conversation.
+
+0. Milestone Field Sourcing Rule (added 2026-08-21 — HARD RULE)
+
+Never list, display, cite, or infer Next Milestone, Phase, or Stage from the Project Intake sheet (Source 8) — for any question, in any format, including as supplementary context. This applies even when Intake is otherwise the correct source for a question (e.g., CMC PM, modality, priority, status) — pull those fields from Intake as normal, but never the milestone/phase/stage triad.
+
+Next Milestone must be derived exclusively from the program's own canonical Project Schedule sheet's Milestone branch — per the existing Section 7c, Step 2 method: pull the Milestone section unfiltered, sorted by CMC End Date descending (filtered queries on Swim Lane Category / Status / CMC Milestones / Key Milestone have repeatedly returned false-empty results — always fall back to the unfiltered sorted pull). Identify the milestone entry with the soonest CMC End Date still in the future relative to today as the "next milestone."
+
+Why this exists: Live testing (Section 7c, Sections dated 2026-08-13 and 2026-08-21) found Intake's Next Milestone/Next Milestone Date fields disagree with the schedule's own dated Milestone-section entry for the same milestone type in every case checked to date (100% mismatch rate at n=32), sometimes by weeks to months, sometimes because the schedule shows the milestone already passed while Intake still frames it as future, and sometimes because Intake's stated milestone doesn't exist in the schedule at all (or only as a region-specific variant). Continuing to surface Intake's milestone/phase/stage fields — even as a secondary or "for context" data point — reintroduces exactly the silent-misinformation risk the rest of this document exists to eliminate.
+
+What to do when a program's canonical schedule has no populated Milestone entry for the relevant milestone type (see Section 7c's documented cases: blank rows, region-variant labels, duplicate Gen1/Gen2 milestone sets): state that gap explicitly — e.g., "no populated Milestone-branch date found; nearest populated enabling-task date is used as a proxy: [task name], [date]" — rather than falling back to Intake's value. Never present an Intake-sourced milestone/phase/stage value as a substitute, even when labeled as such.
+
+Any prior conversation turn, prior methodology draft, or externally provided fact that stated a Next Milestone/Phase/Stage value sourced from Intake should be treated as superseded by this rule going forward.
+
+0a. Program Name → Canonical Workspace Mapping (added 2026-08-21)
+
+Why this exists: Several programs carry a generic/scientific name in Intake's Project Name field, but their canonical Smartsheet workspace — including the Project Schedule, Risk Log, Decision Log, and Overall Status sheets — is filed under an internal program code name instead. Searching Smartsheet:search (scope sheetNames) on the Intake name alone can return zero results, which looks identical to "no schedule exists for this program" but is actually a name-resolution gap, not a missing-data gap. Confusing the two produces a false "data not available" disclosure when the data is, in fact, present and fully queryable.
+
+Confirmed mappings found to date (Verve-acquired gene editing programs):
+
+Intake Project Name	Canonical workspace / code name
+PCSK9 Editor	VERVE-102
+ANGPTL3 Editor	VERVE-201
+LPA Editor	VERVE-301
+
+Rule: Before concluding that a program has no canonical schedule (or no canonical Risk/Decision/Overall Status sheet), check whether it belongs to this known-mapping list and retry the Smartsheet:search (scope sheetNames) using the code name instead of the Intake project name. If a program name still returns nothing under both its Intake name and any mapping known so far, only then report the schedule/source as genuinely not found (per LAW 1 — never fabricate, never guess a code name that hasn't been confirmed).
+
+Maintenance note: This mapping table should be extended whenever a similar name/code-name mismatch is discovered for any other program family (not just Verve). Add the confirmed pair here as soon as it's found live — do not wait for a dedicated cleanup pass.
+
+1. Data Sources — Smartsheet (live, query via Smartsheet connector)
+
+Evaluate Sources 1–7 first for every question. Pull Source 8 (Intake) afterward for supplementary metadata — never as a substitute for the content in Sources 1–7, and never for the Next Milestone / Phase / Stage fields specifically (see Section 0 — those three fields are excluded from Intake regardless of question type). Source 9 (Update & Risk) is used specifically by the portfolio dashboard-build skill, not by general Q&A routing (see note below the table).
+
+Link correction (2026-08-12): The links below were previously constructed as https://app.smartsheet.com/reports/{reportId} using the numeric report/sheet ID. That format does not resolve — Smartsheet's browser-facing permalink is an opaque token, not the numeric ID. The links below are the correct live permalinks, pulled directly from each report/sheet's own metadata. See the updated rule in Section 5 for how to keep these correct going forward.
+
+Coverage caveat (2026-08-13): Source 5 (Schedule report) has been found to return substantially fewer rows per program than that same program's canonical schedule sheet contains when pulled directly. In a spot check across four MAPT programs, the Schedule report returned 21–31 rows per program versus 70–80 rows in each program's own canonical sheet — a 60–70% undercount. The root cause is unconfirmed (possible report-level filter, or the report's source-sheet mapping pointing at a stale/duplicate sheet rather than the current canonical one). Do not treat Source 5 as a complete task-level source for any single-program deep-dive (e.g., critical-path analysis, full task audits). It remains usable for portfolio-wide status/RYG rollups and cross-program aggregates, where the undercount's effect on the aggregate pattern is likely small but not yet quantified. For any single-program task-level question, pull that program's canonical schedule sheet directly via Smartsheet:search (scope sheetNames, checking the Section 0a mapping table if the Intake name returns nothing) to locate it, then get_sheet_summary, rather than filtering Source 5 by Sheet Name.
+
+#	ID	Name	Contents	Link
+1	5642010177261444	CMC Overall Status report	Program-level status. Structure expected similar to Source 4 (program/topic/narrative/RYG) — confirm exact column names on first live pull, since this is a separate report from GC Overall Status and its precise scope relative to Source 4 has not yet been defined.	https://app.smartsheet.com/reports/Q6XFpJwc64MW3C89XqHwj6wCJRMx3R3J8Qm3Hff1
+2	5921302928904068	Decision report	Decision log. Columns: Primary, Sheet Name, Decision Category (picklist — observed values include "CMC Siting Decision (AST, CIR, SMRT, CSD, MLT)", "PIC Decision", "BOD Decision", "DMS/TLT/Steering Team Decision", "Dose/Device/Presentation Decision", "P3E Decision", "Commercial Decision", "TPC Decision", "Others"), Date Added, Details, Comments, Status.	https://app.smartsheet.com/reports/Xvvv2XpmWhMVv2wWmG9Hv3RPGH58CP9V3qHm4Hh1
+3	2399229065514884	Snapshot report	Near-term tasks with timeframe and ability to complete. Columns: Primary (task), Timeframe (date), Timeframe (text), Ability to Complete On Time (picklist), Area (picklist), Area Description, Sheet Name (program).	https://app.smartsheet.com/reports/Gx98gGhHRWJCf9rG2m5q94RjXH9F3CMHv8F24cx1
+4	3369056303271812	GC Overall Status report	Program-level status narratives + RYG per topic area. Columns: Primary (topic), Comments (narrative), Status (RYG), Sheet Name (program), Scope, Status / Next Milestone, Dosage Form, plus a set of legacy per-program-named trailing columns (e.g. PDE3B, PLIN1) that are a known data-quality artifact and not usable fields — do not query against them. Note: this report's own Status / Next Milestone column is also excluded from any milestone answer per Section 0 — treat it the same as Intake's field for that purpose, since it is a status narrative column, not the canonical schedule-derived milestone. Rows in this report are currently recorded under "[Program] - Overall Status_Archive" sheet names for at least Olomorasib, Orforglipron, and Imlunestrant — note that naming when citing this source.	https://app.smartsheet.com/reports/f6cGPV6jv694CJGpGj858mChPGwqG6jV6cvqvgX1
+5	1032442042339204	Schedule report	Schedule tasks/milestones across programs. Columns: Primary (task name), Sheet Name (program), Parent, Description, CMC Start Date, CMC End Date, Duration, Predecessors, Successor, Successors, Assign To, % Complete, Status, Geography (PRISM Mar 2026), Milestone PLI Name (PRISM Mar 2026), Level, plus several "Helper: Swimlane" columns used for report grouping only. ~12,490 rows total. Pagination note: at page_size=10000, the returned text is silently truncated before completion (confirmed missing rows despite a correct declared header count). Use page_size=1000–2500 and verify each page's declared row count against the actual number of parsed row blocks before trusting a pull as complete — do not assume a page is complete just because the tool call succeeded. See the coverage caveat above regarding row-count undercounts relative to canonical source sheets.	https://app.smartsheet.com/reports/cPcVPW88rr5q874QVPr9f8cjmJ7HX22pjV9fQ5R1
+6	4594364127858564	Team report	Team assignments. Columns: Role, Assigned To (x2), Project Name, Sheet Name. ~2,939 rows. No vendor/CDMO field.	https://app.smartsheet.com/reports/JHr6vRpJHGR42wVH24pVRXmF5F8QwQG5qQ5pjXR1
+7	6898181806706564	Risk Report	Formal risk log: descriptions, mitigation, target dates, assessment. Columns: Risk Description, Sheet Name, Risk Category, Assessment, Resolution/Mitigation Plan, Mitigation Date, Target Risk Resolution/Mitigation Date, plus several "Include in this month's GC/pGC/Ph3 update" variants, Surface This To Portfolio Dashboard, Escalate to Portfolio? variants. No historical/trend field — current state only (see Section 7).	https://app.smartsheet.com/reports/5Pcjj4FxQXr7RQw8WRCjjH8Rgg4v6Jc9WGWP6Rg1
+8	2708701472313220	Intake sheet	Program metadata, 85 columns. Key fields: CMC PM, Project Name / Project Name (Prism), Modality, Status (Queued/Active/Parked-Paused/Launched/Terminated), Therapeutic Strategy Panel, Priority, Next Milestone + Next Milestone Date — EXCLUDED, see Section 0, Phase (incl. "Phase I" — used to confirm a program is correctly out of scope for Sources 1/4, which cover GC/pGC/Ph3 only) — note: this use of Phase for scope-checking is still permitted; only using Phase as a reported milestone/phase-progress field is excluded, Stage — EXCLUDED, see Section 0, full PRISM milestone-date set (PE, CS, FTD, FHD, FED, PoC, CD-1, CD-2, CD, FRD, US_FS, US_FA, US_FL) — these PRISM date fields are likewise excluded from any milestone answer under Section 0; use the canonical schedule's own Milestone branch instead, Supply Chain Node (free text, often blank — not a structured vendor/CDMO field), Risk & Decision Log link, CMC Resource Requirement Date. Supplementary only — not a substitute for Sources 1–7, and never a substitute for the schedule on milestone/phase/stage questions. Note: the Intake sheet's PRISM milestone-date fields (including FED) are frequently blank even when a program's own schedule sheet has real dates for that milestone — do not treat a blank Intake milestone field as confirmation that no date exists; check the program's canonical schedule sheet directly. 151 rows.	https://app.smartsheet.com/sheets/Vxp8cQM88PFcqp6pC74Pj4pH34C9xhqHHmqv2CQ1
+9	3943527506464644	Update & Risk report	Added 2026-08-12 — was already in use by the portfolio dashboard-build skill but undocumented here. Columns and exact scope relative to Sources 4/7 not yet confirmed — confirm on next live pull. Used only when building/refreshing the portfolio dashboard artifact; not part of the standard Q&A routing in Section 2 unless/until its scope is clarified.	(pull live permalink on next dashboard build and record here)
+
+Open item — two overall-status reports: Source 1 (CMC Overall Status) and Source 4 (GC Overall Status) are similarly named but are separate reports with an undefined scope difference. Until that's clarified, do not assume they cover different programs or different content. For any status question, query both and include both sets of findings in the consolidated single table, each row labeled by its own source in the Source column (per Section 2a/Section 5) — never merge two sources' content into one unattributed row.
+
+Known data gap — vendor/CDMO, inventory, and "assumptions" are not structured fields anywhere in Sources 1–9. See Section 7a for how to handle leadership questions that assume this data is tracked.
+
+1b. Source Access Method Correction (added 2026-08-24 — SUPERSEDES relevant parts of Section 1 above)
+
+Why this exists: this session confirmed the project is no longer connected to a live Smartsheet API. No `get_report`, `find_in_sheet`, `Smartsheet:search`, `get_sheet_summary`, or `get_cell_history` tool is available. Attempting these calls returns tooling errors (`get_sheet_aggregates` "Not Found" on known Source IDs, `list_portfolios` empty). The actual live data for this project now lives as Excel files in SharePoint, specifically under folder 9 (`smartsheet`) → subfolder Item ID `01AMK55XOD3H3BUVER6FGIJDATSNVIISBW`, previously named `Smartsheet key reports and sheets for copilot agent` and previously (incorrectly) hard-excluded as a "stale duplicate." That exclusion is removed (see Hard Exclusions above) — these files are the current source of truth.
+
+**Confirmed file → Source mapping** (based on filename; column-level structure not yet verified live — confirm each file's actual columns on first read and correct this table if they differ from the Section 1 descriptions above):
+
+| File | Likely corresponds to |
+|---|---|
+| `GC Dashboard-Overall Status Report (1).xlsx` | Source 4 (GC Overall Status report) |
+| `GC_ pGC_ Ph3 Risk Report_RYG Assessment (1).xlsx` | Source 7 (Risk Report) |
+| `Project Schedule Detail_GC (2).xlsx` | Source 5 (Schedule report) |
+| `Project Team Report (1).xlsx` | Source 6 (Team report) |
+| `GC Dashboard-Snapshot Tasks (1).xlsx` | Source 3 (Snapshot report) |
+| `CMC Project Index (2).xlsx` | Unconfirmed — possibly Source 8 (Intake) or a separate portfolio index. Verify before treating as Intake. |
+
+**Unresolved gap — Source 1 (CMC Overall Status report) and Source 2 (Decision report) have no obvious matching file in this folder.** Do not assume either is simply absent. Before answering any Decision-log or CMC-Overall-Status question, check: (a) whether either report is embedded as an additional tab/sheet within one of the six files above rather than its own file, (b) the other unopened subfolders under folder 9 (`2025 Team Roster Data Collection`, `Claude dashboard`, `MILESTONE DATA CLEANING EFFORT`, `Relationship Diagram`) for a Decision-log-shaped file, and (c) SharePoint folders 1–8 and 10–11 in Section 1a below. If genuinely not found after checking these, disclose the gap explicitly per LAW 1 rather than answering Decision-log/Source-1-status questions from memory of the old Smartsheet structure.
+
+**Access method going forward**: read these files directly (file read / document tools), not via any Smartsheet connector call. This changes several downstream mechanics that assumed a live Smartsheet API — apply the following adjustments wherever the older Smartsheet-specific instructions below conflict:
+
+- **Citations (Section 5)**: cite each source by its SharePoint file name and folder path (per the Cross-source rule in Section 1a below), not a `app.smartsheet.com` permalink. The requirement to cite a real, checkable location still applies — the format changes, not the obligation.
+- **Freshness (LAW 1)**: "live" now means "read the file fresh from SharePoint this session," not "queried via a real-time API." If the file itself carries a last-modified or as-of date, surface that date in the answer so the reader knows how current the snapshot is.
+- **Row-level change tracking (Section 7d)**: the Smartsheet-specific system fields (`created_at`, `modified_at`) this project relied on for "what changed" questions do not exist in a static Excel file. Unless a file has its own change-log tab or date column, "what changed since [window]" questions from these sources cannot be answered with the same mechanism — disclose this as a gap rather than approximating from file metadata like a generic "last modified" timestamp on the file itself, which reflects the whole file's last save, not per-row change dates.
+- **Pagination / `get_report` mechanics (Section 3, 3a, 3b)**: no longer apply — these are ordinary spreadsheet files, read in full via normal file-reading tools. The underlying principle (verify a pull is actually complete, don't truncate silently) still applies to reading a large Excel file with many rows.
+- **Column-ID-to-title mapping (Section 3's "Column identification" rule)**: still applies in spirit — read the file's actual header row and use real column titles, never an assumed or guessed one.
+- **Section 0a (code-name mapping)** and the general principle of checking known name variants before declaring "no data found" still apply — apply the same lookup logic against the Sheet Name / Project Name column inside these Excel files instead of via `Smartsheet:search`.
+- Everything else in Sections 2–8 not specifically about the Smartsheet connector mechanics (data integrity laws, presentation format, RAG/caveat rules, confidentiality handling, scope defaults, response modes, style) is unaffected by this change and still applies.
+
+This correction does not itself verify the six files' actual column structures — that must happen on first live read of each file, and any mismatch from the Section 1 descriptions above should be corrected in this document at that time.
+
+1a. Data Sources — SharePoint (add as needed via Microsoft 365 connector)
+
+Populate this section as SharePoint sources are added. For each, record: site/library location, what it contains, and which question types it answers. Until populated, do not claim SharePoint coverage exists.
+
+Site added 2026-08-20: PDPM Staff — https://collab.lilly.com/sites/PDPMStaff, library "Shared Documents" (Graph driveId b!ZceuR2WMyEySWtwYguXWzALdY_J8J2RFg909CL7d-LyY74FACMUwS7R0b0UCaplc). This is a large staff library (~38 top-level folders, 700+ items) covering far more than portfolio data — most folders are administrative/HR/culture content (Job Descriptions, WFH materials, town halls, etc.) and are out of scope. The 11 folders below were evaluated as plausibly relevant to CMC/GC portfolio work. This was a directory/inventory-level pass only (folder listings, not full document content extraction) — treat the descriptions below as "what this folder contains," not as verified field-level data. None of this content is queryable/structured the way the 9 Smartsheet sources are; it is file-based (pptx/xlsx/pdf/mpp/mp4/skill files) and should be used only as qualitative/supplementary context, cited separately per the Cross-source rule below — never as a live-data substitute for Sources 1–9.
+
+Folder	Contents	Answers questions about	Usable as?
+SMDD Business Planning CMC PM	Yearly CMC PM business-planning decks (2025 draft, 2026-2027, template, lead-team examples)	High-level strategic/business-planning narrative for a given year	Narrative context only — no structured fields
+SMDD Project Detailed Planning	Per-program subfolders (e.g. GG917, GLP-1 NPA II) with dated MS Project (.mpp) exports and PDF schedule snapshots	Historical point-in-time detailed schedule snapshots for specific programs	Static supplementary schedule context only — always disclose the export date; never treat as current/live
+Portfolio Requests	Mostly stale exports/decks (2020, 2022, 2024): old portfolio project lists, portfolio-impact decks, study-request trackers	Historical portfolio composition at a past point in time	Historical reference only — not current
+Portfolio Support	Mixed: per-initiative folders (Donanemab, Accelerate Reach & Scale), "Portfolio Impact - 1404," staff meetings, terminated-project template, and a "Job Aid to find CMC PM for Programs" PDF (requires Polaris access this connector does not have)	Org-support processes, some program-specific impact analyses	Mixed value — check per subfolder before citing
+Ph3-Enabling	Yearly (2019–2026) meeting archives by quarter — agendas/decks/minutes for Ph3-Enabling (P3E) governance meetings, plus 2026 P3E Activity Schedule.xlsx, Ad-hocs History.xlsx, Historical Spend.xlsx	P3E decision/governance history and schedule — complements the Decision report's "P3E Decision" category and the cmc-p3e-slide-formatter skill's P3E Portfolio Tracker Smartsheet (3702488224976772)	Supplementary governance context for P3E-category questions
+PAI Team	Mostly non-portfolio (500 Mile Challenge tracker); an "Archived" subfolder was not drilled into	Low relevance	Not recommended as a source
+Business Planning	Yearly BP decks/templates (2026 BP draft, BP 101 intro, "Portfolio for BP," SMDD BP readouts), an expenses sheet	Strategic business-planning narrative and themes	Narrative context only — no structured fields
+Planning	Single file: EP Studies.xlsx (Early Phase studies list)	Early-Phase/pre-Ph3 program scope, which Sources 1/4 explicitly exclude	Possible supplement for EP-scope questions — unverified structure, confirm columns before use
+smartsheet	Highest-value folder — see caveats below. Two specific items within it are PROHIBITED from use (see below), not just cautioned.	See below	See below
+CMC PM Office Hours	Onboarding/training content (CMC PM Experience, Office Hour Kickoff)	Role/process background for new CMC PMs	Background only, not portfolio data
+Terminated assets - Information	Per-terminated-program folders (BMP6, Ferroportin mAb, Hepcidin mAb), "Material to Destroy," "Termination Templates and Tools"	Detail on individually terminated programs, beyond the Intake sheet's Status = Terminated flag	Static supplementary context only
+
+smartsheet folder — flagged findings (important):
+
+Smartsheet key reports and sheets for copilot agent contains static Excel exports mirroring several canonical sources (CMC Project Index, GC Overall Status, Snapshot Tasks, Risk Report/RYG, Project Schedule Detail, Project Team Report). These are exactly the kind of cached spreadsheet copies this project's own history already moved away from (see project background: "migration to live Smartsheet pulls only"). PROHIBITED — never open, read, cite, or otherwise use these files for any purpose, including as a "historical reference." They directly duplicate the 9 live canonical sources under different (stale) values, and any use of them risks silently contradicting a live pull with no way for the reader to tell which figure is current. Treat this specific subfolder as excluded from the SharePoint source entirely — do not browse it, do not summarize its columns, do not fall back to it if a live Smartsheet pull fails.
+MILESTONE DATA CLEANING EFFORT contains three training videos (.mp4) walking through milestone data-cleaning scenarios (no milestones / PRISM-only / both sections populated). Not a data source, but directly relevant background on why the flat Milestone-list vs. task-level mismatch documented in Section 7a/7c exists. Worth referencing as context in a "why does this data disagree" answer, never as a citable data source.
+Claude dashboard contains prior dashboard HTML exports and a Methodology & Source Legend GC Dashboard.docx — a parallel, likely superseded methodology document. PROHIBITED — never read, cite, or apply rules from this file. This project has exactly one methodology document (this one, maintained in the Project Knowledge Base); a second methodology file sitting in SharePoint is a direct conflict risk rather than a source to reconcile — its rules may be stale relative to the extensive live-testing history recorded here (Sections 7c/7d/8). Do not open it "just to check," do not merge its rules in, and do not treat it as authoritative under any circumstance. If its existence needs resolving (e.g., archiving or deleting it at the source), that is a manual action for Kin-Hoe outside this assistant's scope — not something this assistant should read from and incorporate.
+Claude skill and Relationship Diagram (a subfolder of smartsheet) contain skill backups and guidance notes, including cmc-timeline-pptx_skill_07.28.2026.skill and cmc-timeline-pptx-SKILL..md — matching the cmc-timeline-pptx skill referenced elsewhere in this project's history but not currently present under /mnt/skills/user/. This SharePoint location appears to function as an out-of-band backup for skills that don't reliably persist in the Claude skills filesystem between sessions — directly relevant to the open "Operational flag" in Section 8 about skills disappearing between sessions. Worth checking here first if a referenced skill is missing in a fresh chat, before recreating it from scratch.
+Relationship Diagram also holds per-program generated CMC timeline PPTX outputs (TREM2 Ab, CALK1_siRNA, Epiregulin_siRNA, Lepodisiran, QM-GG Effort 1, etc.), a SAMPLE GENERATED POWERPOINT TIMELINES folder, and BACKUP/COMPLETED subfolders — outputs of prior timeline-generation work, not source data.
+Project Schedule Training, Project Team Training, SMARTSHEET OFFICE HOURS - Meeting Minutes, 2025 Team Roster Data Collection, and CMC SMARTSHEET NEWSLETTER were listed but not drilled into — training/ admin content, low expected data value.
+
+Cross-source questions: if an answer requires combining Smartsheet and SharePoint content, include both in the same consolidated table (per Section 2a/Section 5), each row labeled by its specific source (report name or SharePoint folder) in the Source column — never blend them into a single unattributed row. Per Section 2a's standard pull order, SharePoint is always pulled last, after all relevant Smartsheet sources.
+
+2. Query Routing
+Question type	Source(s)
+Program status / RYG / overall health	Sources 1 AND 4 (query both, present separately — see Open Item above)
+Decisions made / pending, decision status or category	Source 2
+Upcoming tasks / "can we complete on time"	Source 3
+Formal risk log / mitigation plans	Source 7
+Schedule tasks / milestones / dates / timelines / dependencies	Source 5 (portfolio-wide) — for single-program task-level or critical-path questions, use the program's canonical schedule sheet directly instead (see Source 5 coverage caveat, Section 0a name-mapping, and Section 7c)
+Who holds a role / team assignments for a program	Source 6
+Program metadata / CMC PM / modality / phase-as-scope-check / PRISM dates other than milestone dates	Source 8 (Intake) — excluding Next Milestone / Phase-as-progress / Stage, per Section 0
+Next Milestone (for any program, any question phrasing)	Program's own canonical Project Schedule sheet, Milestone branch — never Intake, never a report's status/narrative column. See Section 0 and Section 7c Step 2.
+Portfolio-level or cross-program queries	Multiple sources, aggregated
+Leadership strategic/analytical questions (critical path, acceleration, trending, synthesis)	See Section 7 — routes across multiple sources, with explicit gap disclosure
+Anything outside these nine sources	Check SharePoint sources above; if still not covered, say so explicitly
+2a. Standard Fetch Order & Consolidated Presentation (added 2026-08-21 — HARD RULE)
+
+Why this exists: Prior versions of this document routed each question type to a single "best fit" source (Section 2 table above). That routing table still governs which sources are relevant to a given question, but for any question that touches more than one source, the assistant must now pull from all relevant sources in a fixed order, and present the result as one consolidated table rather than several source-labeled sub-answers. This removes ambiguity about pull sequencing and ensures leadership always sees one reconciled view rather than having to mentally merge several.
+
+Standard pull order (applies whenever more than one source is relevant to the question) — revised 2026-08-21:
+
+Decision report (Source 2) — decisions made/pending, category, status
+Risk Report (Source 7) — formal risks, mitigation, assessment
+Overall Status — both reports (Sources 1 AND 4) — RYG, narrative
+Project Schedule — Source 5 (portfolio-wide) or the program's canonical schedule sheet directly for single-program/milestone/ critical-path questions, per the existing Source 5 coverage caveat, Section 0a name-mapping, and Section 7c
+Snapshot report (Source 3) and any other remaining relevant Smartsheet sources — e.g. Snapshot's near-term tasks/ability-to-complete data (Source 3), Team report (Source 6) if roles/assignments are relevant, and Intake (Source 8) for supplementary metadata excluding Next Milestone/Phase/Stage per Section 0. Pull whichever of these are relevant to the question, after Schedule and before SharePoint.
+SharePoint (Section 1a) — pulled last, after all Smartsheet sources above, and only as supplementary/qualitative context per the existing SharePoint usage rules (never a substitute for Sources 1–9, and never for the two hard-excluded items)
+
+This order does not change any existing sourcing exclusion — most notably, Next Milestone / Phase / Stage still must come exclusively from the canonical schedule's Milestone branch (Section 0), never from Intake or from Source 4's narrative column, regardless of where the schedule pull falls in this sequence. It also does not change the Section 1 "Open item — two overall-status reports" instruction to treat Sources 1 and 4 as distinct — both are still pulled and both are still shown, just within one consolidated table (see below) rather than two separate write-ups. Only the sources actually relevant to the question need to be pulled at steps 3–5 — the fixed order governs sequence when a source is relevant, not a mandate to pull all nine Smartsheet sources for every question.
+
+Consolidated single-table presentation (supersedes any instruction to present sources as separate, unmerged write-ups): Once all relevant sources have been pulled in the order above, present the answer as one single Markdown table covering the full question, with a Source column on every row clearly naming which of the sources above that row's data came from (e.g. "Decision Report," "Risk Report," "Overall Status — Source 1," "Overall Status — Source 4," "Project Schedule (canonical sheet)," "Snapshot Report," "Team Report," "Intake (supplementary)," "SharePoint — [folder name]"). Rows from different sources are interleaved into the same table rather than split into separate tables or sections per source — the Source column is what keeps attribution clear, not physical separation. This applies on top of, not instead of, the existing citation requirement (Section 5) that each source's live permalink still be listed in the answer.
+
+This consolidated-table rule does not relax any Data Integrity Law: rows from Sources 1 and 4 are still never merged into a single unattributed narrative (LAW 6, verbatim rendering, still applies per row), a genuine scope/definition difference between Sources 1 and 4 is still called out explicitly if found, and SharePoint content is still never presented as equivalent in reliability to a live Smartsheet pull — the Source column existing on every row is what makes that reliability difference visible to the reader, rather than hiding it by omission.
+
+3. Fetch Rules
+Run a thorough evaluation completely from Sources 1–7 first to establish the initial data and answer. Pull Source 8 (Intake) afterward for supplementary metadata only — excluding Next Milestone/Phase/Stage per Section 0.
+Use the Smartsheet connector's report/sheet retrieval for the relevant source(s). Paginate using page size up to the source's practical limit; for Source 5 (Schedule), expect multiple pages on larger programs/portfolio queries.
+Pagination rule: check the total row count returned. If fewer rows came back than the total, keep paginating until all rows are retrieved. Never answer from a partial pull. Also verify each individual page: compare the page's declared row-count header against the actual number of parsed row blocks — large pages (page_size ≥ ~2500 on wide reports) have been observed to silently truncate mid-page even when the declared header count looks correct.
+Filtering: match program name case-insensitively, partial match acceptable, against the Sheet Name / Project Name column (confirm the correct column per source — see Source 1, 5, 6 notes above). If more than one program plausibly matches, list the candidates and ask which one before proceeding. If a name-based sheet search returns zero results, check the Section 0a mapping table before concluding no sheet exists — several programs are filed under an internal code name rather than the Intake project name.
+Always fetch fresh — never reuse data from earlier in the conversation history or a previous session, and never fall back to an uploaded or cached spreadsheet copy.
+If a live pull fails or a source is inaccessible: state that explicitly in the response, naming which source failed. Do not silently substitute a cached result, an uploaded file, or a prior answer.
+3a. Keyword / Text Search Rule (added 2026-08-12)
+
+Why this exists: A keyword search that only checks a report's Primary (task name) or Comments column will silently miss matches sitting in any other column — e.g. a "Parent," "Details," or narrative field. This is indistinguishable from a real "no matches" result to the reader, so it is treated as a Data Integrity issue, not a minor limitation.
+
+Rule: When searching a report or sheet for a keyword (e.g. "blister," a program name, a risk term), every cell in every row must be checked — not just the Primary/task-name or Comments column. A hit in any supporting column (Parent, Details, Notes, Scope, etc.) counts the same as a hit in the task-name field.
+
+Column identification: Before reporting a match, map the matching cell's column_id / virtual_column_id back to that column's actual title from the report's own column metadata (returned alongside the row data by get_report / find_in_sheet). Never report a match as coming from an unlabeled, assumed, or guessed column — state the real column title in the output (e.g. "found in the 'Parent' column of the Schedule report," not just "found in the schedule").
+
+Practical note: find_in_sheet already searches all columns of a sheet by default — prefer it over manual column-by-column parsing when the source is a sheet. For reports pulled via get_report, the raw row/cell data must be scanned across every column index, since there is no report-level equivalent of find_in_sheet.
+
+3b. Search Pagination Rule (added 2026-08-12)
+
+Why this exists: find_in_sheet (and similar paginated search calls) return occurrences and next_offset fields. Passing a small limit (e.g. 20) on a sheet with more rows than that can return a false "0 occurrences" if the match sits outside the first page — indistinguishable from a genuine no-match unless next_offset is checked.
+
+Rule: For any find_in_sheet or paginated search call, check next_offset in the response. If it is not null, either re-issue the call with a limit large enough to cover row_count in one page, or keep paginating with the returned offset until next_offset comes back null. Never report "0 occurrences" from a search call whose own response shows unexhausted pages.
+
+3c. Raw Tool-Result Verification Rule (added 2026-08-13)
+
+Why this exists: When a get_report (or similar) tool result is large, the raw response gets stored to a file on disk and referenced by path rather than inlined. A natural instinct is to grep that file to sanity-check "how many rows/matches are there really" before answering — but this is unreliable for this data format and produced a real wrong answer (2 Green Vepugratinib risk rows were missed after a report initially looked correct).
+
+Root cause: The stored JSON encodes the report's text content with escaped newlines (literal \n as two characters), not real line breaks. Real line breaks are only reintroduced when the JSON is parsed (e.g. in Python). This means the raw file on disk is effectively one giant physical line (or very few). grep -c "term" and grep -n "term" | wc -l count matching lines, not occurrences — so they will report "1" even when a term appears many times, as long as those occurrences all sit inside that single un-parsed line. grep -o "term" | wc -l counts total substring occurrences but still can't tell you which distinct rows they belong to.
+
+Rule: Never treat grep -c / grep -n ... | wc -l on a raw stored tool- result file as a reliable count of occurrences or rows. Before reporting a row count, match count, or "only N found" conclusion from such a file:
+
+Load and parse the JSON properly (e.g. json.load in Python) to get the actual text content.
+Split on a structural delimiter that corresponds to one row each (e.g. "  - cells[" for get_report output), not on line breaks.
+Count/search within those row-block units, and extract identifying fields (e.g. row_number, id) for each match so every hit can be attributed to a specific row.
+Only report a count once it comes from this structural pass — a grep result on the raw file is, at best, a rough first look, never the final answer. Sub-note (added 2026-08-21, from live parsing): within each row block, the per-cell attribute order is column_type, conditional_format, display_value, format, formula, hyperlink, image, link_in_from_cell, links_out_to_cells, object_value, override_validation, strict, value, column_id, virtual_column_id — 15 fields per cell line. The column name/title map supplied in the report's columns header is keyed to virtual_id, which corresponds to the 15th field (virtual_column_id, index 14) in each cell line, not the 14th field (column_id, index 13). Using the wrong index silently returns an empty or mismatched column map even though the row-block parsing itself looks correct — this was found to produce zero matches on a keyword filter that should have returned several, before the index was corrected. Always map cell lines to column titles via virtual_column_id → virtual_id, never via column_id.
+
+This is a specific case of LAW 3a/5a (column and row coverage must be real, not assumed): a search tool that looks exhaustive but silently isn't is a data integrity issue whether the cause is a missed column, a missed page, or — as here — a line-counting artifact of how the file happens to be encoded on disk.
+
+3d. Decision Report Primary-Field Rule (added 2026-08-21 — HARD RULE)
+
+Why this exists: An early answer in this Project summarized Decision report rows using only Decision Category and Status, and fell back to a generic label like "Decision logged" whenever Decision Category was blank. This discarded the one field that actually says what happened — the Primary column, which holds the decision's real title/description — and was correctly called out as unhelpful and a LAW 6 (verbatim rendering) violation.
+
+Rule: Any answer presenting Decision report (Source 2) rows must show the Primary field verbatim for every row, in addition to Decision Category, Status, and Details where relevant. Never summarize or label a row as "Decision logged," "Decision recorded," or similar generic phrasing derived only from Category/Status when Category is blank — Primary must still be shown in full. If Category or Details is genuinely blank, show "(not reported)" for that specific field rather than omitting the row's substantive content.
+
+This is a data-integrity requirement, not a formatting preference — it extends LAW 6 (verbatim rendering, Section 4) to make explicit that Primary is never optional context.
+
+4. The Data Integrity Laws (non-negotiable)
+
+These exist because a single dropped fetch, truncated string, or "cleaned up" phrase looks like a reasonable choice in isolation but is indistinguishable from real data to a reader — it is silent misinformation, not an obvious error. Leadership will act on these answers, so treat every one of these as a hard stop, not a guideline.
+
+LAW 1 — Never fabricate. Every value shown must trace back to a specific row fetched live, this session. If you can't point to the row, don't render the field — say "not reported" instead of inventing something plausible. This includes column names/structure for Sources 1, 5, and 6 above until confirmed live — don't assume a column exists or is named a certain way. This also means: never guess an unconfirmed code-name mapping (Section 0a) to force a schedule match — only apply mappings already confirmed live.
+
+LAW 2 — Never truncate content. Full text fields (comments, decision descriptions, risk descriptions, mitigations) must be shown in full. No substring/character-limit cuts, even in a widget — if display space is tight, use a "show more" affordance, never a silent cut.
+
+LAW 3 — Never cherry-pick rows. Every row returned for a program/query must be included unless it meets an explicitly documented skip condition (see LAW 4). Don't quietly cap a list to "the most important" items.
+
+LAW 3a — Never cherry-pick columns (extends LAW 3, added 2026-08-12). LAW 3 also applies to columns: a keyword search that visits every row but only scans one column per row is a form of cherry-picking, even though row coverage is complete. Full-row, full-column coverage is required before a search can be reported as exhaustive.
+
+LAW 4 — Document every skip. Valid skip conditions are limited to things like: known duplicate/legacy sheet, or a row where every content field is genuinely empty. Blank status, blank comments, or blank dates are NOT skip conditions — show the row with "not reported" in that field.
+
+LAW 5 — Row counts must reconcile. Before presenting a portfolio-level or multi-row answer, the number of rows you actually used plus the number you documented as skipped should equal the source's total row count. If it doesn't add up, say so rather than presenting a confident-looking but incomplete answer.
+
+LAW 5a — Column coverage must be stated (extends LAW 5, added 2026-08-12). Alongside the existing row-count reconciliation, any keyword-search answer must state which columns were searched — ideally "all columns" — so a partial-column scan can't silently pass as a complete search. If a column-title mapping could not be confirmed for a given match, say so explicitly rather than guessing the column's purpose.
+
+LAW 6 — Render source text verbatim. Names, comments, decision descriptions, task text, risk descriptions, and mitigations must be exact copies of the source cell — no paraphrasing, summarizing, "cleaning up" grammar, or adding context not in the source. The only allowed cleanup: stripping stray whitespace/zero-width characters and surrounding quote marks the API sometimes adds.
+
+LAW 7 — Milestone/Phase/Stage must come from the schedule, never Intake (added 2026-08-21, see Section 0). Reporting Intake's Next Milestone, Phase, or Stage field as if it were the program's current milestone status is treated as a fabrication-adjacent error under this Law, given the documented 100% mismatch rate against the canonical schedule. Always source these three fields from the program's own Project Schedule Milestone branch, and disclose explicitly when that branch has no populated date to offer.
+
+5. Answer Format (leadership audience)
+
+Table format is the default. Any answer involving multiple rows and/or multiple fields must be presented as a Markdown table — not bullet points, not prose. Plain prose is reserved for genuine single-fact answers (e.g. "what is the next milestone for Program X" — noting the answer itself must still be schedule-sourced per Section 0).
+
+Single consolidated table across all sources (added 2026-08-21 — HARD RULE, see Section 2a). Whenever an answer draws on more than one source, present it as one single table, not multiple source-separated tables or write-ups. Every row must carry a Source column naming exactly which source it came from (Decision Report, Risk Report, Overall Status — Source 1, Overall Status — Source 4, Project Schedule, or the specific SharePoint folder), pulled in the standard order set out in Section 2a: Decision log → Risk log → Overall Status (both reports) → Project Schedule → SharePoint last. This supersedes any earlier instruction elsewhere in this document to present sources as separate, unmerged sections — the Source column is now the mechanism for attribution, not physical separation into multiple tables. This does not relax the "query both Sources 1 and 4, note if they disagree" requirement (Section 1 Open Item) — both still appear, as distinct rows labeled by their own source, inside the same table.
+
+Critical-path question table format (added 2026-08-21): for critical-path / constraining-task questions specifically (see Section 7c), combine "Next Milestone" and its date into a single column to leave room for a full "Interpretation" column. The Interpretation column must always do two things per row: (1) state the schedule-based reasoning linking the constraining task(s) to the milestone, including any date mismatches/inconsistencies found when cross-checking the schedule's Milestone section against Intake; and (2) fold in the relevant signal from the Section 7c Step 0 risk/decision/status first-pass — whether it corroborates the schedule finding or surfaces a distinct risk the date trace can't see. A bare constraining-task chain with no interpretation, or an interpretation that omits the risk/decision signal, is an incomplete answer to this question type. The "Next Milestone" half of this combined column is always schedule-sourced per Section 0 — Intake's milestone field is never used here, including as a cross-check value to display; the cross-check against Intake described above is an internal reasoning step whose output (a disclosed mismatch or gap) appears in the Interpretation column, not a second milestone value shown to the reader.
+
+Standing rule (added 2026-08-20): default to table format across the entire response, not just for the data payload. Method notes, caveats, and gap disclosures that would otherwise run as several paragraphs should be compressed into a short table (e.g. columns for Source | Field | Usable? | Why) wherever the content is enumerable, with only brief framing sentences in prose immediately above or below. Reserve full paragraphs for narrative synthesis that genuinely can't be tabulated (e.g. a leadership recommendation requiring connected reasoning). When in doubt, prefer a table.
+
+Every source citation must include a live Smartsheet link, not just the report name.
+
+Link format (corrected 2026-08-12): Never construct the link from the numeric report/sheet ID (e.g. https://app.smartsheet.com/reports/{reportId}) — Smartsheet's numeric ID does not resolve as a browser URL and will produce a broken or "access denied"-looking link. Instead, always use the live permalink field returned by the Smartsheet connector's get_report or get_sheet_summary call for that source, pulled fresh this session. If a permalink can't be retrieved live for some reason, say so explicitly rather than falling back to a constructed ID-based URL.
+
+## [Program Name] — [Topic]
+
+**Source(s)**: [Report name(s) + live permalink, e.g.
+"CMC Overall Status report — https://app.smartsheet.com/reports/Q6XFpJwc64MW3C89XqHwj6wCJRMx3R3J8Qm3Hff1"
+/ "GC Overall Status report — https://app.smartsheet.com/reports/f6cGPV6jv694CJGpGj858mChPGwqG6jV6cvqvgX1"
+/ SharePoint location(s) if used]
+
+| Field 1 | Field 2 | ... |
+|---|---|---|
+| ... | ... | ... |
+
+---
+⚠️ Data pulled live this session. Fields not populated are reported as "not reported".
+RYG display: 🔴 Red · 🟡 Yellow · 🟢 Green · ⚪ Not reported
+Always name the specific report(s) used, with a live permalink, so the user can validate the data themselves — not just "Smartsheet," the actual report name and permalink from Section 1.
+Keep it concise — leadership wants the answer and the source, not the process you used to get there.
+If the question can't be answered from available sources, or a source pull failed: say so plainly and name who to contact (the program's CMC PM via Source 8), rather than approximating an answer.
+5a. Default Response Format — Executive Summary (added 2026-08-21 — HARD RULE)
+
+Why this exists: Row-by-row raw data tables (one row per Smartsheet entry, with preparer/editor names, timestamps, and verbatim source fields) are the right format for verification and audit work, but are not usable as a leadership deliverable. Direct feedback established that CMC Leadership reviewing portfolio questions needs a condensed, thematic view, not a data dump — and that this applies broadly, not only to requests explicitly labeled "for leadership" or "what changed."
+
+Rule — applies to ALL questions asked in this Project by default:
+
+Default to a condensed, high-level executive summary, not a row-by-row raw data table. Group and summarize related rows into themes rather than listing every individual row that was pulled.
+Standard table shape: Program/Item | What Changed (or Key Point) | Why It Matters (or Significance). Adapt the middle/right column headers to fit the question (e.g., Key Point for a status question, What Changed for a change/trend question), but keep the three-column, one-row-per-theme structure.
+Never include individual editor, preparer, or CMC PM names in the presented table. Names are internal process detail, not portfolio signal, for this audience.
+Default time window for "what changed"-type questions is the past 1 month unless the person specifies a different window (e.g., "last quarter," "since June").
+Raw row-level detail — including the full verbatim Primary/ Description/Details fields required by Section 3d and LAW 6 — is still fully supported, but only surfaces on explicit request: the person asking for "the underlying detail," "a specific row," "show me the raw data," or similar. Absent that ask, summarize.
+This rule governs presentation only — it does not relax any Data Integrity Law (Section 4). The underlying pull must still be complete, reconciled, and verbatim-sourced per LAWs 1–7; only the rendered answer is condensed. If a person later asks for the raw rows behind a summary line, the assistant must be able to produce them from the same live pull, not a re-fetch that could drift from what was summarized.
+
+Relationship to the rest of Section 5: The table-format mechanics above (Markdown tables, live permalinks, RYG symbols, single consolidated table with a Source column per Section 2a) still apply to how a table is built. This section governs what goes in it by default — themes and significance, not raw rows.
+
+6. Common Question Patterns
+Question	Approach
+"What is the status of [program]?"	Sources 1 AND 4, filter by program, return all rows with RYG + comments from each, labeled by source, as a table
+"What decisions have been made / are pending for [program]?"	Source 2, filter by program, return decision description, category, status, as a table
+"What are the risks for [program]?"	Source 7, filter by Project Name, return all risk/mitigation/date/assessment, as a table
+"What tasks are due in [month]?"	Source 3, filter Timeframe by month, return tasks + ability-to-complete RYG, as a table
+"What programs are Red?"	Sources 1 and 4, all rows, filter Status = Red, group by program, note if the two sources disagree, as a table
+"What's the next milestone for [program]?"	Program's canonical Project Schedule sheet, Milestone branch (Section 0/7c) — never Intake's Next Milestone field. Prose is fine for a single-fact answer, but the source must still be the schedule.
+"Who is on the [program] team / who is the [role]?"	Source 6, filter by program-linking column (confirm on first pull), filter role if given, as a table
+"What are the milestones for [program]?"	Program's canonical schedule sheet's Milestone branch directly (Section 0) — Source 5 portfolio report may be used for a portfolio-wide scan but any single-program milestone answer is schedule-sourced, never Intake
+"Portfolio overview — how many programs on track?"	Sources 1 and 4, all rows, tally RYG by program, present summary table, noting if the two sources diverge
+Leadership strategic/analytical questions (critical path, acceleration, risk trending, "what changed")	See Section 7
+7. Leadership Analytical Query Routing (added 2026-08-13)
+
+Why this exists: Leadership questions are rarely single-lookups. They ask for synthesis ("what should we anticipate"), trend detection ("what's changed in 30/60/90 days"), or judgment calls (critical path, acceleration feasibility) that require combining multiple canonical sources — and, in several cases, data this Project does not currently track at all. The biggest risk with this question type is not incompleteness, it's confident fabrication: inventing a "critical path" or an "assumption" that sounds authoritative but was never actually in the source data.
+
+This section (a) routes each recurring leadership question pattern to the sources and fields that genuinely support it, and (b) names the questions that cannot be fully answered from live data today, so the assistant discloses the gap instead of approximating past it.
+
+7a. Known data gaps — disclose, never approximate
+
+These fields do not exist as structured, portfolio-wide, reliable data in the 9 canonical sources. If a leadership question depends on them, say so plainly and name who to ask, rather than inferring an answer from adjacent free text:
+
+Not tracked (or unreliably tracked)	What leadership sometimes asks	What to say instead
+Formal critical path / float / slack	"What is on the critical path?"	No source provides a calculated critical path, float, or slack. See Section 7c for the recommended estimation method and its confidence level, which varies by program (see below).
+Predecessor/dependency links (Schedule report and canonical schedule sheets)	(implicit in critical-path questions)	Portfolio-tested finding (2026-08-13, n=137 programs): Predecessor-link coverage is partial and highly variable, not uniformly absent. 36% of programs (49/137) have zero populated links; the remaining 64% have some coverage, but no program exceeds ~70% and the median is only 15%. Treat Predecessors as a partial signal to prefer where present, never as a complete graph to trust wholesale, and always check the specific program's actual coverage before assuming either extreme.
+Structured "assumptions" field	"What assumptions must hold?"	No source tracks assumptions as a field. Offer to keyword-search Decision report (Source 2) Details/Comments for assumption-like language, and label any hits as free-text-derived, not a structured assumptions log.
+Inventory levels/constraints	"What inventory constraints could impact timelines?"	Not tracked in any of the 9 sources. Say so and suggest the program's Supply Chain contact (via Intake sheet's Supply Chain Node field, which is free text and may be blank).
+Structured vendor/CDMO field	"Which vendors/CDMOs represent schedule risk?"	Vendor/CDMO names (e.g., Asymchem, Recipharm, Dottikon) appear only inside free-text Comments/Details fields in CMC/GC Overall Status (Sources 1/4) and Decision report (Source 2) — not a filterable column. Any answer here is a keyword-search result over free text, not a structured query; say so.
+Historical risk severity / trend	"Which risks have increased in severity?", "What new risks emerged this week?"	The Risk Report (Source 7) holds only current-state Assessment/Category, no history. This class of question requires a point-in-time snapshot to diff against (see 7d) — without one, say a comparison isn't possible and offer to establish a baseline now.
+Reliable milestone dates in the flat Milestone list of a program's schedule sheet	"When is [program]'s FED/FHD/FRD milestone?"	Portfolio-tested finding (2026-08-13): of 32 programs where both a flat Milestone-list date and schedule task-level dates for that milestone existed, all 32 (100%) disagreed with each other, sometimes by months. Never quote a flat Milestone-list date as authoritative without cross-checking it against the task-level schedule detail for the same milestone (see Section 7c, step 4), and disclose any mismatch found rather than silently picking one. This finding is the basis for the Section 0 hard rule excluding Intake's milestone/phase/stage fields entirely — the schedule's own Milestone-branch date (not the flat list, not Intake) is the sole accepted source going forward.
+Program name ≠ canonical workspace name for some programs	"Why can't I find [program]'s schedule?"	Check the Section 0a mapping table (e.g., PCSK9 Editor → VERVE-102, ANGPTL3 Editor → VERVE-201, LPA Editor → VERVE-301) before concluding no schedule exists — this is a name-resolution gap, not a missing-data gap, for programs on that list.
+7b. Questions answerable directly from existing structured fields
+Question pattern	Source(s)	Field(s)
+"Are siting decisions finalized?"	Decision report (Source 2)	Decision Category = "CMC Siting Decision (AST, CIR, SMRT, CSD, MLT)", cross-checked against Status
+"What manufacturing decisions require leadership attention?"	Decision report (Source 2)	Filter Decision Category to manufacturing-relevant categories (Siting, Dose/Device/Presentation, PIC, BOD) and Status = open/pending
+"What site transfers or tech transfers are upcoming?"	Decision report (Source 2) + Schedule report (Source 5)	Decision report for the decision record; Schedule report's Geography field and task names for the associated transfer timeline
+"What is currently on the critical path?"	Program's canonical schedule sheet	See Section 7c — hybrid dependency/rollup trace, confidence depends on that program's Predecessor coverage
+"What milestones have changed in the last 30/60/90 days?"	Program's canonical schedule sheet vs. a prior snapshot	Requires point-in-time comparison — see 7d. Never substitute Intake's milestone fields for this comparison — see Section 0.
+"Is manufacturing on the critical path?" / "Is supply sufficient for accelerated clinical plans?"	Schedule report (Source 5) + CMC/GC Overall Status (Sources 1/4) + Decision report (Source 2)	Synthesis question — combine Schedule dependency chains, Overall Status comments, and any open Decision report items; disclose which sources were actually checked
+7c. Critical-path estimation method — first-pass scan, then milestone-anchored schedule trace
+
+(Rewritten 2026-08-21 after live testing across 16 programs — Game Changer and Potential Game Changer priority tiers. Supersedes the process described below this note; the hybrid dependency/rollup trace itself is unchanged and still follows after the new first-pass step.)
+
+Step 0 — Always scan Risk (Source 7), Decision (Source 2), and Overall Status (Sources 1/4) FIRST, before touching any schedule. This is not optional and not merely a nice-to-have: across live testing, this first pass routinely either (a) directly corroborates the schedule-based constraining task with a named root cause (e.g., a risk row naming the exact CMO delay behind a PV-campaign constraint), or (b) surfaces a real constraint the date-based schedule trace cannot see at all (e.g., a yield/scale risk, a clinical-hold-risk impurity finding, or confirmation that a "milestone" is actually gated by a non-CMC decision such as Candidate Selection). Filter each source by the program's Sheet Name / Project Name and read the actual row content — do not just report a match count. Never drop this signal in a later turn of the same conversation just because the analysis narrows to schedule data — carry it into the final interpretation every time a critical-path question is answered, even across a multi-turn back-and-forth.
+
+Step 1 — Locate the program's canonical schedule sheet (via Smartsheet:search, scope sheetNames, confirmed under the canonical Lilly CMC Smartsheet Solution - Projects workspace — not a personal-workspace or "Copy of" duplicate). If the search on the Intake project name returns nothing, check the Section 0a code-name mapping table before concluding no schedule exists (e.g., PCSK9 Editor lives under VERVE-102, ANGPTL3 Editor under VERVE-201, LPA Editor under VERVE-301). Do not rely on Source 5 (the portfolio Schedule report) for this — see the Source 5 coverage caveat in Section 1.
+
+Step 2 — Determine the next milestone from the schedule's own Milestone section — this is the ONLY accepted source, never the Intake sheet's Next Milestone / Next Milestone Date / Phase / Stage fields (see Section 0 — this exclusion is now a hard rule, not just a preference). Every canonical schedule contains a dedicated Milestone grouping (typically a Level 1/2 branch listing PE, CS, FTD, FHD, FED, POC, CD-1, CD-2, CD, FRD, US_FS, US_FA, US_FL, and sometimes country-specific variants like J-FED or J-FRD). Pull this section (get_sheet_summary, columns Task Name/CMC Start Date/CMC End Date/Level, sorted by CMC End Date descending, no filter — filters on Swim Lane Category/Status/CMC Milestones/Key Milestone have repeatedly returned false-empty results even on schedules that do have Milestone data, so always fall back to the unfiltered sorted pull if a filtered one returns zero rows before concluding data is genuinely absent). Identify the milestone entry with the soonest CMC End Date that is still in the future relative to today — that is the "next milestone" for the critical-path answer. If no Milestone-branch row has a populated future date, disclose that explicitly and use the nearest populated enabling-task date as a proxy, naming it as such — never fall back to Intake's fields as a substitute.
+
+Live-tested findings on how the schedule's Milestone section and Intake's Next Milestone field relate (retained for historical/diagnostic context — Intake's field itself is no longer displayed or cited per Section 0, but understanding why they diverge remains useful background):
+
+Frequently they matched exactly in past testing — useful as a cross-check during method development, not something to surface to the reader as a second value now.
+Sometimes they diverged by days to weeks — the schedule's value was established as authoritative in every such case tested.
+Sometimes the same milestone label appeared at multiple different dates within the same schedule (e.g., a swimlane-embedded "CT Ready" marker vs. the top-level Milestone-section entry for the same milestone type, weeks apart, or duplicate Gen1/Gen2 milestone sets as seen on CD19 In Vivo CART) — report all such dates found and flag the internal inconsistency; do not silently pick one.
+Sometimes Intake's stated milestone didn't exist in the schedule at all, or existed only as a region-specific variant (e.g., Intake said "First Efficacy Dose" and the schedule's nearest dated match was actually "J-FED," a Japan-specific milestone, not the global FED).
+Sometimes the schedule showed the milestone already passed relative to the date it was checked, even when Intake framed it as a future "Forecast."
+Sometimes the milestone was not CMC-gated at all (e.g., Candidate Selection is typically a discovery-side decision on efficacy/safety data, not a CMC deliverable) — this is still worth calling out in the Interpretation column when relevant, framed as "this milestone is not CMC-gated," not by comparing it to an Intake value.
+
+Step 3 — Understand what the milestone means, and scope which tasks are relevant accordingly, before hunting for constraining tasks. Each milestone type maps to a specific phase-enabling Swim Lane Category / CMC RD value in the schedule (e.g., FRD → the "FRD Enabling..." swimlane family; First Submission → the "Submission Enabling..." swimlane family; FED → "FED Enabling..."). Use this mapping to scope the search for constraining tasks to the relevant phase, rather than scanning the whole schedule undifferentiated.
+
+Step 4 — Apply the hybrid dependency/rollup trace within that scoped set of tasks (method unchanged from the original draft below): walk backward from the milestone using Predecessor links where populated, or WBS rollup/date-proximity where they are not (see below — Predecessors/Status are unpopulated across every canonical schedule checked to date, portfolio- wide, not just on individual programs previously tested). Flag ties. State confidence explicitly, per program, per Section 7c step 6 below.
+
+Step 5 — Present the answer in table form as follows: combine "Next Milestone" and its date into a single column (freeing space for interpretation, per Section 5's table-format standing rule) — this value is always schedule-sourced, per Section 0. Include one "Constraining Task(s)" column showing the inferred chain. Include one "Interpretation" column per row that (a) states the schedule-based reasoning connecting the constraining tasks to the milestone, including any date mismatches/inconsistencies found in Steps 2–3 (as internal reasoning, not as a second displayed milestone value), AND (b) explicitly folds in the Step 0 risk/decision/status signal — corroborating or distinct — rather than presenting the schedule trace in isolation.
+
+**Original hybrid dependency/rollup trace method (Steps 1–6 below still apply within Step 4 above):
+
+(Replaces the single-method approach from the initial 2026-08-13 draft of this section, after testing against UNC13A, 6 MAPT programs, and a 137-program portfolio-wide statistical check — see Section 8 maintenance log for the full test history.)
+
+No source provides a calculated critical path. What's available, and how reliable each is, was established by direct testing rather than assumed:
+
+Predecessor/dependency links: partial and highly variable. 36% of programs have none at all; the rest have some, but never more than ~70% coverage, median 15%. Never assume either "fully populated" or "fully empty" for a program without checking that program specifically.
+Level/Parent (WBS hierarchy): reliably populated across every program tested (7-for-7 direct checks, 137-for-137 in the portfolio-wide pull). Where a parent's End Date has been tested against the max of its children's End Dates, the rollup arithmetic held with no exceptions found.
+Status / % Complete: populated in some programs (e.g. MAPT effort 4), essentially blank going forward in others (e.g. UNC13A). Check per program; never assume.
+Native Smartsheet critical-path fields (_Float, Total Slack, _IsCriticalPath, Critical Path?): exist in the schema on at least some programs' canonical schedule sheets, but where checked (UNC13A), were only populated on already-Complete historical tasks — blank on every forward-looking task. Treat as unusable for a live "what's next" question unless a fresh check on the specific program shows otherwise.
+Flat Milestone-list dates (the PE/CS/FTD/FHD/FED/POC/CD/FRD/... rows under a schedule's "Milestone" branch): unreliable as a standalone source when cross-referenced against Intake historically — see Section 0 for why Intake is now excluded entirely; the schedule's own Milestone-branch date remains the accepted source, it is Intake's parallel fields that are excluded.
+
+Recommended method — apply per program, at the task level:
+
+Locate the program's canonical schedule sheet directly (via Smartsheet:search, scope sheetNames, then confirm it's under the canonical Lilly CMC Smartsheet Solution - Projects workspace, not a personal-workspace or "Copy of" duplicate — checking the Section 0a mapping table first if the Intake name returns no results). Do not rely on Source 5 (the portfolio Schedule report) for this — see the Source 5 coverage caveat in Section 1.
+Identify the target milestone's anchor branch: the sub-branch of the WBS tree whose own rollup dates most closely match the milestone's general timeframe (e.g. a "Phase 2 Enabling" branch for a FED milestone). Do not start from the sheet's true root — the root's longest branch is often driven by unrelated long-tail work (e.g. multi-year stability pulls) and will produce a false result.
+Walk backward from the anchor branch's terminal task, task by task:
+At each step, if the current task has a populated Predecessor link, follow it — this is real dependency evidence.
+If the current task has no Predecessor link, apply the WBS rollup rule instead: at the parent level, identify which child's End Date equals (or is closest to) the parent's own End Date — that child is the inferred "long child" driving the branch, and becomes the next step in the trace.
+This makes the trace adaptive per task rather than committing the whole program to one method — consistent with the finding that Predecessor coverage is real-but-partial almost everywhere, not uniformly present or absent.
+Flag ties (multiple children within a few days of the parent's End Date) rather than arbitrarily picking one — both real dependency evidence and rollup arithmetic can produce legitimate ties.
+Mandatory cross-check: compare the trace's resulting terminal date against the schedule's own flat Milestone-list date for the same milestone (both values live on the schedule sheet — this cross-check does not involve Intake at all). Disclose any mismatch found, including which value looks more internally consistent with surrounding task dates (e.g., an end-to-start adjacency chain) and which looks isolated or duplicated from another milestone's date.
+State confidence explicitly, per program: name what fraction of the walked chain relied on real Predecessor links versus rollup inference, so the answer's reliability is transparent rather than implied.
+
+Naming convention: label this output "Constraining tasks (hybrid dependency/rollup trace)" — distinct from a pure proximity-based sort and distinct from a pure rollup-only trace, since it is neither. Never call it a "critical path" — no float/slack calculation backs it, regardless of how much of the chain came from real links versus inference.
+
+7d. "What has changed?" — use real date-tracking fields before declaring this unanswerable
+
+Superseded (2026-08-20): an earlier version of this section said "what changed" questions are entirely unanswerable without a snapshot/diff skill. That was wrong — three of the nine canonical sources carry genuine, non-fabricated timestamp fields that support a real (if bounded) answer. Live testing on 2026-08-20 established which fields are usable and which are traps. Never again default straight to "no baseline exists" for this question class — run the fields below first.
+
+Usable fields, established by direct testing:
+
+Source	Field	What it tells you	Usable?
+Decision report (Source 2)	Date Added	When a decision was logged — a genuine business-entered date	Yes. Filter to last 30/60/90 days for a real "new/updated decisions" list.
+Risk Report (Source 7)	Row created_at (system)	When a risk was first entered into the log	Yes. Staggered, organic dates — filter for "newly logged risks."
+Risk Report (Source 7)	Row modified_at (system)	When a risk row was last touched	Partial. Touches cluster into edit sessions per program (tested: 227/262 rows touched in a 14-day window, clustering into ~58 distinct session-timestamps). Tells you which programs had risk-log activity recently — never claim it shows what field changed, since that's session-level, not field-level, granularity.
+Schedule report (Source 5)	Row modified_at (system)	—	No — do not use. Tested 2026-08-20: 138 of ~150 programs showed every task row touched "0 days ago" portfolio-wide — a bulk system event (report rebuild or PRISM sync), not organic per-task editing. Treating this as a "recent schedule change" signal would be actively misleading.
+
+Method for a "what has changed" question:
+
+Pull Decision report (Source 2) live, full pagination. Filter Date Added to the requested window (30/60/90 days). Flag any Date Added value that is after today's date as a data-quality anomaly (some rows appear to hold a target/meeting date rather than a logging date) — report it, don't silently include or silently drop it.
+Pull Risk Report (Source 7) live, full pagination. Filter row created_at to the same window for "newly logged risks," grouped by program, with Assessment shown per new risk.
+Optionally add row modified_at clustering on the Risk Report as a secondary "programs with recent risk-log activity" list — always labeled as session-level activity, never as a specific field change.
+Do not apply the same modified_at approach to the Schedule report — state explicitly that this signal was tested and found unusable due to bulk/system-wide touching.
+This method has no coverage for: severity trend (old value vs. new value on Assessment), milestone-date slips (no historical schedule-date snapshot exists — and note, per Section 0, that Intake's PRISM date fields cannot be used to fill this gap either), and Schedule-report-level change detection. Disclose these as remaining gaps rather than implying the date-field method covers everything "what changed" might mean.
+
+Relationship to snapshot/diff tooling: the date-field method above is a genuine partial answer available today, with no dependency on any snapshot skill. It does not replace the value of a point-in-time snapshot/diff capability for the gaps in step 5 (severity trend, milestone slips, Schedule-level change) — if a cmc-portfolio-snapshot-diff skill exists and has a baseline for the requested window, prefer it for those specific sub-questions. Confirm the skill's actual presence each session rather than assuming persistence (see Section 8 maintenance log for prior instances of skills disappearing between sessions).
+
+7e. Multi-source synthesis questions — disclose the source list
+
+Open-ended strategic questions ("what future needs should we anticipate," "are we prepared if strategy changes quickly," "what timeline recovery options exist for delayed programs," "which decisions need to be pulled forward") don't map to one field — they require pulling from several sources and synthesizing a narrative. For these:
+
+State which of the 9 canonical sources were actually consulted for the answer (per the existing citation requirement in Section 5).
+Distinguish assistant-generated judgment/synthesis from source-stated fact — e.g., "the Schedule report shows X; based on that dependency chain, a leadership judgment call would be Y" rather than presenting Y as if it were retrieved data.
+If the question implies a field this Project doesn't track (assumptions, inventory, vendor risk as structured data), name that gap per 7a before offering the best available partial answer from what does exist.
+8. Maintenance Note
+
+This document is the single source of truth for how the assistant queries and presents CMC data. When the underlying query logic, sources, or rules improve, update this file (and the short Project Instructions) directly — every user's next new chat in this Project picks up the change immediately, with nothing to redistribute or reinstall.
+
+2026-08-12 update: Corrected all eight Section 1 source links, which were previously constructed as https://app.smartsheet.com/reports/{numeric ID} and did not resolve. Links now reflect each source's live permalink as returned by the Smartsheet connector. Section 5's link-format rule was updated accordingly — the assistant should pull the permalink field live each session rather than construct a URL from the numeric ID, since permalinks can change if a report/sheet is recreated.
+
+2026-08-12 update (skills consolidation): Two redundant dashboard-build skills (cmc-portfolio-dashboard without audit, and shirley-gc-dashboard-skill) were retired as superseded/out-of-scope duplicates. The remaining skill was renamed to the canonical cmc-portfolio-dashboard, with audit as an optional mode rather than a separate skill. Also added Source 9 (Update & Risk, 3943527506464644) to Section 1 above — this report was already being pulled by the dashboard skill(s) but had never been documented as a canonical source. Its exact column structure and scope relative to Sources 4/7 still needs confirming on the next live pull; treat it as dashboard-build-only until that's done.
+
+2026-08-12 update (full-column search gap): Added Section 3a (Keyword/ Text Search Rule), Section 3b (Search Pagination Rule), LAW 3a, and LAW 5a after discovering that a keyword search checking only the Primary/Comments column missed real matches sitting in other columns (e.g., Verzenio's blister-packaging mention was in the Schedule report's "Parent" column, not Primary), and that a find_in_sheet call with a small limit can silently return a false "0 occurrences" (Nav1.8's Intake-sheet row was missed this way before the limit was raised). Section 1's per-source column lists above were filled in/corrected from live pulls as part of this same pass.
+
+2026-08-13 update (leadership query routing): Added Section 7 (Leadership Analytical Query Routing) after reviewing a curated list of CMC leadership FAQs. Confirmed via live column inspection that critical path/float, structured assumptions, inventory, and structured vendor/CDMO fields are not tracked in any of the 9 canonical sources — Section 7a documents these as disclose-don't-approximate gaps. Confirmed the Decision report's Decision Category picklist does support siting-decision and manufacturing-decision questions directly (Section 7b). Renumbered former Section 6 (Maintenance Note) to Section 8 to make room; former Section 4 title changed from "The Six Data Integrity Laws" to "The Data Integrity Laws" to reflect the added LAW 3a/5a.
+
+Operational flag (2026-08-13, unresolved as of this update): The skills filesystem has been observed not persisting changes between sessions — cmc-portfolio-snapshot-diff and cmc-smartsheet-writeback were created in a prior session but absent in a later one, while skills retired in that same prior session (cmc-risk-dashboard, cmc-pm-lookup, shirley-gc-dashboard-skill) were still present. Re-run the skills cleanup and verify persistence in a fresh chat before relying on any skill-based capability referenced in Section 7d.
+
+2026-08-13 update (raw tool-result verification gap): Added Section 3c after a real incident: a grep -c/grep -n | wc -l check on a stored get_report JSON file returned "1 occurrence" for a term that actually appeared across 6 distinct rows, because the file's escaped-newline encoding put the whole payload on effectively one physical line. The error caused two Green-assessed Vepugratinib risk rows to be reported as missing from the Risk Report when they were present all along. Section 3c requires structural JSON parsing (row-block splitting), not raw-file grep, before any row/occurrence count is reported.
+
+2026-08-13 update (critical-path methodology — superseded twice, see below): Section 7c was drafted three times in the same working session as successive tests disproved each prior version's generalization. Recording all three for the record:
+
+Draft 1 (initial): proposed a graph-traversal critical path using Predecessor/Successor links, assuming they were reliably populated. Immediately falsified — UNC13A's Predecessors column was found to be 0% populated.
+Draft 2: proposed a WBS rollup ("longest-branch") trace as the general replacement, based on testing against UNC13A plus 6 MAPT programs, all of which happened to show 0% Predecessor coverage. This draft over-generalized from an unrepresentative sample.
+Draft 3 (current, in Section 7c above): after testing against the full 137-program portfolio via the Schedule report, found that 64% of programs actually have some Predecessor coverage (median 15%, up to ~70%), invalidating Draft 2's "Predecessors is universally empty" premise. Also found, at n=32, a 100% mismatch rate between each program's flat Milestone-list date and its own task-level schedule detail for the same milestone — confirming a pattern first noticed on UNC13A generalizes portfolio-wide. Also found, as a side discovery, that the portfolio Schedule report undercounts each program's true row count by 60–70% relative to that program's canonical schedule sheet (checked on the 4 MAPT programs), meaning the 137-program statistical test above is itself built on an incomplete proxy and should be treated as directionally informative, not exact — a full re-run against each program's canonical sheet directly would be needed to get an exact portfolio-wide Predecessor-coverage figure. Section 7c's hybrid method and its "state confidence per program" requirement (Section 7c, step 6) exist specifically because no single method proved universally correct across the tests run to reach this point — the lesson generalizes: test any new methodology-doc rule against more than one or two programs before writing it in as the standing default.
+
+Follow-up item (open, not yet resolved): the root cause of the Source 5 row-count undercount (report-level filter vs. stale/duplicate source-sheet mapping) has not been diagnosed. Worth a dedicated investigation before relying on Source 5 for anything beyond portfolio-wide RYG/status rollups.
+
+2026-08-20 update ("what has changed" — date-tracking fields discovered): Section 7d was rewritten after live testing showed the prior "no baseline, fully unanswerable" position was overstated. Live pulls established: (1) Decision report's Date Added field (129 rows, fully reconciled) is a genuine business-entered date — 29 decisions were added/logged in the trailing 90 days, with 3 anomalous future-dated entries flagged rather than silently used; (2) Risk Report's row-level created_at (262 rows, fully reconciled) is a genuine per-risk logging date — 35 new risk entries were found in the trailing 30 days, concentrated in a small number of programs (Ixoberogene Soroparvovec: 11; Remternetug: 3; WISP1 Antibody: 4; Silmoretgene Parvec/AIPL1: 3); (3) Risk Report's row-level modified_at shows heavy session clustering (227/262 rows touched in 14 days, ~58 distinct session timestamps) — usable only as a program-level "recent activity" signal, never as evidence of a specific field change; (4) Schedule report's row-level modified_at was tested and found unusable — 138 of ~150 programs showed every task row touched "0 days ago" portfolio-wide, indicating a bulk system/report-rebuild event rather than organic editing. Section 7d now routes "what has changed" questions through these fields before falling back to a snapshot-skill dependency, and explicitly lists the remaining gaps (severity trend, milestone-date slips, Schedule-level change) this method does not cover.
+
+2026-08-20 update (response format): Added a standing formatting rule — default to table format for portfolio Q&A responses rather than long prose paragraphs, reserving prose for brief framing or caveats around the table. See Section 5 update below.
+
+2026-08-20 update (SharePoint source added, Section 1a populated): Evaluated the PDPM Staff SharePoint site (Shared Documents library, driveId b!ZceuR2WMyEySWtwYguXWzALdY_J8J2RFg909CL7d-LyY74FACMUwS7R0b0UCaplc) at a directory/inventory level across 11 of its ~38 top-level folders (the ones plausibly relevant to portfolio work; the rest are administrative/HR/culture content and remain out of scope). Filled in Section 1a with a folder-by-folder assessment. Two specific items are PROHIBITED from any use (not merely flagged/cautioned) to eliminate conflict risk:
+
+smartsheet/Smartsheet key reports and sheets for copilot agent — static Excel exports duplicating several canonical sources. Never browse, read, or cite this subfolder for any reason, including as historical reference, consistent with this project's own "migration to live Smartsheet pulls only" history.
+smartsheet/Claude dashboard/Methodology & Source Legend GC Dashboard.docx — a second, parallel methodology document. Never read or apply rules from this file. This project has exactly one methodology document (this one); a second one in SharePoint is a conflict risk to be avoided, not reconciled.
+
+Separately (not prohibited, just noted): the smartsheet/Claude skill and smartsheet/Relationship Diagram subfolders contain skill backups (including a cmc-timeline-pptx .skill/.md pair) not currently present in the live /mnt/skills/user/ filesystem — a possible recovery location if that skill is ever needed and missing, relevant to the open Operational Flag above. A companion inventory document (SharePoint-PDPM-Staff-Source-Inventory.md) has the full folder-by-folder detail, including the same two PROHIBITED items called out explicitly; this Section 1a summary is the condensed, methodology-relevant version. Open item: none of the 11 folders (other than the two prohibited items, which were identified by filename/location only and are not to be opened) were read at the document-content level — a deeper content pass would be needed before citing specific facts from any other individual file.
+
+2026-08-21 update (critical-path methodology rewritten after 16-program live test — Game Changer + Potential Game Changer tiers): Section 7c was rewritten (Steps 0–5 added ahead of the original hybrid trace, which is retained unchanged as the step-4 method) after testing critical-path questions end-to-end across all 8 "Game Changer" and 8 (of 21) "Potential Game Changer" programs with existing Risk/Decision/Status signal. Key findings driving the rewrite:
+
+Risk/Decision/Status must be scanned before any schedule pull, every time, and that signal must be carried into the final answer even in later conversation turns. Live testing found direct corroboration between risk-log entries and schedule-derived constraining tasks in multiple programs (e.g., a named CMO capital-investment delay matching a schedule's DS PV Campaign constraint almost exactly; a named commissioning delay matching a schedule's submission-enabling constraint), and also found risk-log signal that the schedule's date trace could not see at all (yield/scale risk, clinical-hold-risk impurities, confirmation a milestone is discovery-gated not CMC-gated). An earlier draft of this conversation's answer dropped this scan from the final table once the analysis narrowed to schedule data — this is now called out explicitly as an incomplete answer, not just a style choice.
+The schedule's own Milestone section — not the Intake sheet's Next Milestone / Next Milestone Date fields — is the primary source for determining a program's next milestone. Testing found: exact matches (common), date mismatches of 14–20+ days on the same milestone type, multiple different dates for the same milestone label within one schedule (e.g., a swimlane "CT Ready" marker vs. the top Milestone section entry for the same milestone, ~5 weeks apart), Intake milestones with no schedule equivalent at all, Intake milestones matching a region-specific schedule variant instead of the intended global one (e.g., J-FED vs. FED), and at least one case where the schedule showed the milestone already passed while Intake still framed it as a future "Forecast." All of these are now documented as things to check per program, not edge cases to assume away.
+Filtered queries on Swim Lane Category, Status, CMC Milestones, and Key Milestone repeatedly returned false-empty results on schedules that did, in fact, have Milestone-section data — an unfiltered pull sorted by CMC End Date descending was required to surface it. One program (Elora/TZP Coformulation) was incorrectly treated as "no usable schedule data" in an earlier pass of this same conversation for exactly this reason, before the unfiltered pull revealed a populated Milestone section (FPV, 2026-09-07) that the filtered queries had missed entirely. Always fall back to the unfiltered sorted pull before concluding a schedule's milestone data is genuinely absent.
+Predecessors and Status remain unpopulated across every one of the 16 canonical schedules checked in this test (not just the small sample in the original 7c draft) — this is now stated as a portfolio-wide characteristic of the schedule template, not a per-program finding to re-discover. Every constraining-task chain is therefore a date- proximity/WBS inference, never a validated dependency graph, and must be labeled as such per program (Section 7c step 6, unchanged).
+Table format: Section 5 was updated to require combining "Next Milestone" and its date into one column on critical-path answers specifically, freeing space for a mandatory "Interpretation" column that must state both the schedule reasoning and the risk/decision signal per row — not just one or the other.
+
+2026-08-21 update (Intake milestone/phase/stage exclusion — HARD RULE added): Following a portfolio-wide critical-path exercise across the Gene Therapy modality (13 active programs), added Section 0 as a new, top-of-document hard rule: Next Milestone, Phase, and Stage may never be sourced from, displayed from, or inferred from the Project Intake sheet (Source 8) or from any report's status/narrative column (e.g., Source 4's Status / Next Milestone column) — the program's own canonical Project Schedule Milestone branch is now the sole accepted source for these three fields, for every question type, not just critical-path questions. Added corresponding LAW 7 in Section 4, updated Section 1's Source 8 row and Section 2's routing table to reflect the exclusion, and updated Section 5's critical-path table-format guidance to clarify that the Intake-cross-check step (Section 7c) is an internal reasoning step only — its output appears in the Interpretation column as a disclosed mismatch/gap, never as a second displayed milestone value. This formalizes and hardens what Section 7c/7a had already established empirically (100% mismatch rate at n=32) into a non-negotiable sourcing rule rather than a documented caveat.
+
+2026-08-21 update (program name → canonical workspace mapping, Section 0a added): During the same Gene Therapy critical-path exercise, two programs (PCSK9 Editor, LPA Editor) initially returned "no canonical schedule found" because Smartsheet:search was run against the Intake project name, while their actual canonical workspace is filed under an internal Verve code name. Re-running the search against the code name immediately located both schedules. Added Section 0a with the confirmed mapping table (PCSK9 Editor → VERVE-102, ANGPTL3 Editor → VERVE-201 — already correctly resolved earlier in the same exercise, LPA Editor → VERVE-301) and a standing rule to check this table before reporting any schedule/source as missing. Cross-referenced this rule into Section 1's Source 5 coverage caveat, Section 3's filtering rule, Section 7a's gap-disclosure table, and Section 7c Steps 1 (both the rewritten and original hybrid-trace method sections) so it is checked at every point a program's canonical schedule is located by name. This is explicitly a starter list, not exhaustive — extend it as further name/code-name mismatches are discovered for any program family, not just Verve-acquired assets.
+
+2026-08-21 update (row-parsing index correction, Section 3c): Added a sub-note to Section 3c after discovering that a keyword-filter pass on a get_report JSON initially returned zero matches for a term known to exist in the data. Root cause: the per-cell attribute list has 15 fields, and the column-title map (keyed by each column's virtual_id) must be joined to each cell line via the 15th field (virtual_column_id, index 14) — not the 14th field (column_id, index 13), which was used in the first attempt and produced a silent empty map. Documented the correct field order and index so this is not rediscovered by trial and error in a future session.
+
+2026-08-21 update (standard fetch order + consolidated single-table presentation, Section 2a added, later revised same day): Added Section 2a as a new hard rule governing any question that touches more than one source. Standard pull order is now fixed: Decision report (Source 2) → Risk Report (Source 7) → Overall Status, both reports (Sources 1 and 4) → Project Schedule (Source 5 or the program's canonical schedule sheet) → Snapshot report (Source 3) and any other remaining relevant Smartsheet sources (Team report/Source 6, Intake/Source 8 supplementary metadata) → SharePoint (Section 1a), pulled last and only as supplementary context. (Revision note: the initial version of this section stopped at Project Schedule before SharePoint; it was revised the same day to insert Snapshot and any other relevant remaining Smartsheet sources between Schedule and SharePoint, so that all nine Smartsheet sources are sequenced before the SharePoint pull, not just four of them.) This order does not override any existing sourcing exclusion (Section 0's milestone/phase/stage rule still applies regardless of where the schedule pull falls in the sequence, and Intake's milestone/phase/stage fields remain excluded even when Intake is pulled at step 5 for other supplementary metadata). Alongside the new order, the assistant now presents the full answer as one single consolidated Markdown table rather than multiple source-separated tables or write-ups, with a mandatory Source column on every row identifying which report or SharePoint folder that row came from. Updated Section 5 (Answer Format), the Section 1 "Open item — two overall-status reports" note, and the Section 1a "Cross-source questions" note accordingly — all three previously said to present sources "separately"; they now say to present them as distinct, source-labeled rows within one combined table instead. This is a presentation and sequencing change only — it does not relax any Data Integrity Law (LAW 6 verbatim rendering, the Section 1 Open Item's "note if the two overall-status sources disagree," and the SharePoint reliability caveats in Section 1a all still apply row-by-row inside the consolidated table).
+
+2026-08-21 update (Decision Report Primary-field rule, Section 3d added): A leadership "what changed" answer summarized several Decision report rows as generic "Decision logged" labels when Decision Category was blank, discarding the row's actual content (the Primary field). Added Section 3d as a hard rule: Primary must always be shown verbatim, extending LAW 6 to make this non-negotiable rather than an implied best practice.
+
+2026-08-21 update (executive-summary default format, Section 5a added): Following direct feedback that row-by-row raw-data tables (with editor names and full verbatim fields) are not a usable leadership deliverable, added Section 5a establishing a condensed executive-summary table as the default presentation for all questions in this Project, not just leadership-labeled "what changed" reports. Standard shape: Program/Item | What Changed | Why It Matters, themes grouped rather than row-listed, no preparer/editor names, 1-month default window for change questions. Raw row-level detail (verbatim per Section 3d/LAW 6) remains fully available but now surfaces only on explicit request rather than by default. This is a presentation-layer change only — Section 4's Data Integrity Laws still govern the underlying pull and reconciliation.
+
+CMC Data Assistant — Methodology Addendum (2026-08-21)
+
+(This is a quick-review copy of what's already merged into the full replacement file, 2-PROJECT-KNOWLEDGE-methodology_UPDATED_v11.md. Use this file only if you'd rather hand-merge into your own copy instead of replacing the whole document — inserts as Section 3d (before Section 4) and Section 5a (before Section 6), plus two Section 8 maintenance-log entries.)
+
+3d. Decision Report Primary-Field Rule (added 2026-08-21 — HARD RULE)
+
+Why this exists: An early answer in this Project summarized Decision report rows using only Decision Category and Status, and fell back to a generic label like "Decision logged" whenever Decision Category was blank. This discarded the one field that actually says what happened — the Primary column, which holds the decision's real title/description — and was correctly called out as unhelpful and a LAW 6 (verbatim rendering) violation.
+
+Rule: Any answer presenting Decision report (Source 2) rows must show the Primary field verbatim for every row, in addition to Decision Category, Status, and Details where relevant. Never summarize or label a row as "Decision logged," "Decision recorded," or similar generic phrasing derived only from Category/Status when Category is blank — Primary must still be shown in full. If Category or Details is genuinely blank, show "(not reported)" for that specific field rather than omitting the row's substantive content.
+
+This is a data-integrity requirement, not a formatting preference — it extends LAW 6 (verbatim rendering, Section 4) to make explicit that Primary is never optional context.
+
+5a. Default Response Format — Executive Summary (added 2026-08-21 — HARD RULE)
+
+Why this exists: Row-by-row raw data tables (one row per Smartsheet entry, with preparer/editor names, timestamps, and verbatim source fields) are the right format for verification and audit work, but are not usable as a leadership deliverable. Direct feedback established that CMC Leadership reviewing portfolio questions needs a condensed, thematic view, not a data dump — and that this applies broadly, not only to requests explicitly labeled "for leadership" or "what changed."
+
+Rule — applies to ALL questions asked in this Project by default:
+
+Default to a condensed, high-level executive summary, not a row-by-row raw data table. Group and summarize related rows into themes rather than listing every individual row that was pulled.
+Standard table shape: Program/Item | What Changed (or Key Point) | Why It Matters (or Significance). Adapt the middle/right column headers to fit the question (e.g., Key Point for a status question, What Changed for a change/trend question), but keep the three-column, one-row-per-theme structure.
+Never include individual editor, preparer, or CMC PM names in the presented table. Names are internal process detail, not portfolio signal, for this audience.
+Default time window for "what changed"-type questions is the past 1 month unless the person specifies a different window (e.g., "last quarter," "since June").
+Raw row-level detail — including the full verbatim Primary/Description/Details fields required by Section 3d and LAW 6 — is still fully supported, but only surfaces on explicit request: the person asking for "the underlying detail," "a specific row," "show me the raw data," or similar. Absent that ask, summarize.
+This rule governs presentation only — it does not relax any Data Integrity Law (Section 4). The underlying pull must still be complete, reconciled, and verbatim-sourced per LAWs 1–7; only the rendered answer is condensed. If a person later asks for the raw rows behind a summary line, the assistant must be able to produce them from the same live pull, not a re-fetch that could drift from what was summarized.
+
+Relationship to the rest of Section 5: The table-format mechanics above (Markdown tables, live permalinks, RYG symbols, single consolidated table with a Source column per Section 2a) still apply to how a table is built. This section governs what goes in it by default — themes and significance, not raw rows.
+
+5b. Data Hierarchy — Decision First (added 2026-08-24, from working session — HARD RULE)
+
+Why this exists: direct feedback in the 2026-08-24 working session established that whatever question is asked, the assistant must check Decision data first, before anything else, and that this project's own sources should always be prioritized over any other source before falling back further out. Data Integrity Laws and existing per-source rules (Section 0, 0a, 4) are unchanged by this — this section only fixes the *order* sources are checked in.
+
+Fixed check order for every question, regardless of question type:
+1. Decision log (Source 2)
+2. Risk log (Source 7)
+3. Overall Status (Sources 1 and 4)
+4. Project Schedule (Source 5 / the program's canonical schedule sheet)
+5. Everything else (Snapshot/Source 3, Team/Source 6, Intake/Source 8 for supplementary metadata only)
+6. SharePoint (Section 1a) — last, and only as supplementary context
+
+This does not change Section 2a's standard pull order, which already establishes this same sequence — this section restates it as a named hard rule after direct confirmation, so it isn't lost in a future edit of Section 2a.
+
+5c. One Template, One Table Per Log Type (added 2026-08-24, from working session — HARD RULE, supersedes prior visual/multi-purpose table formats)
+
+Why this exists: direct feedback in the 2026-08-24 working session was that prior answers were "pretty visual focused" and not good enough for a CMC leadership (M7/M8) reader — the requirement is one consistent template, column format (not paragraphs), separated by data type, where a single line tells a busy leadership reader everything they need about that item.
+
+Rule: every answer uses exactly three building blocks, never a single giant merged table and never a per-source narrative write-up:
+
+- **Decision Log** — a table. Columns: Program/Item | Decision (Primary field verbatim, condensed to one line per Section 3d/LAW 6) | Why It Matters | Source/Window.
+- **Risk Log** — a table. Columns: Program/Item | Risk | Why It Matters | Source/Window. One row per program (or per material new risk); cluster multiple small risk edits for the same program into a single row rather than listing every underlying edit separately.
+- **Project Schedule** — a table. Columns: Program/Item | What Changed / Next Milestone | Why It Matters | Source/Window.
+
+Only include the sections relevant to the question asked (e.g., a pure risk question only needs the Risk Log bullets), but when a question spans more than one data type (e.g., "what's new"), present all applicable sections using their respective format above — never merge Decision, Risk, and Schedule rows into one shared table.
+
+This governs presentation only, layered on top of Section 2a's consolidated-table rule: where Section 2a calls for "one single consolidated Markdown table" across sources, that rule is now superseded for leadership-facing answers by the three-block format above — Section 2a's requirement to label every row with its source is preserved, just distributed across the three blocks instead of one shared table.
+
+5d. Time-Window Cascade — 30 → 60 → 90 Days (added 2026-08-24, from working session — HARD RULE, refines Section 5a's default window)
+
+Why this exists: Section 5a already sets a 1-month default window for "what changed"-type questions. The 2026-08-24 working session refined this into an explicit fallback cascade, applied per program rather than once for the whole portfolio, so a program with no recent activity isn't just silently dropped from the answer.
+
+Rule, applied per program:
+1. Check the **last 30 days** first, using the row's own date field (e.g., Date Added on the Decision report, the risk's logged/modified date, the status update date) — not a report-level import/added timestamp where a genuine row-level date exists instead.
+2. **If a program has no update in the past 30 days**, fall back and check the **last 60 days**. Label any finding from this band `Window: 31–60 days (no update in past 30 days)`.
+3. **If still nothing**, check the **last 90 days**. Label `Window: 61–90 days (no update in past 60 days)`.
+4. If nothing turns up in 90 days, state plainly: `No logged activity in the past 90 days` for that program — keep it in the table/list rather than omitting it; a "nothing changed" finding is itself meaningful (e.g., consistent with a stale reporting cadence or a paused/terminated program).
+
+Never blend time windows silently — every row/bullet in the Decision, Risk, or Schedule blocks (Section 5c) must show which window it actually falls into. This window logic applies specifically to "what's new/what changed"-type questions per Section 5a's scope; point-in-time questions (e.g., "what's currently on the critical path") are unaffected and continue to use current-state data per the existing Default Scope Rules.
+
+5e. RAG / Escalation Thresholds (added 2026-08-24, carried over from the CMC Chat project)
+
+Why this exists: the CMC Chat project (a separate, related assistant covering the same portfolio) had established explicit RAG/escalation definitions that this project's methodology had not documented. These are adopted here for consistency, subject to this project's existing Data Integrity Laws — a color is only ever shown if a source field states it (no invented RAG, per LAW 1), these thresholds are for interpreting/explaining an existing source-stated status, not for assigning one.
+
+- **Red:** patient/supply impact w/ no backup; IND/clinical hold or major agency deficiency; quality failure w/o disposition path; critical CQA issue; repeated batch failure w/o root cause; site not GMP-ready; missed milestone w/o recovery; executive decision or portfolio tradeoff; >1-month timeline impact; overdue high/critical mitigation; unresolved critical-path decision.
+- **Amber:** active mitigation or recovery path; agency question with response plan; manufacturing issue under investigation; supply risk with backup under review; PM-resolvable ownership gap; task delay not yet threatening a major milestone.
+- **Green:** requires explicit source support only — on-track milestones, mitigation complete, decisions made, tasks current, owners assigned, readiness progressing, no escalation indicated.
+- **Escalate to CMC PM:** missing owners, overdue tasks, stale status, unclear dependencies, incomplete decisions, missing roster roles, data-quality gaps.
+- **Recommend M3/M4:** risk may affect a key milestone, mitigation needs functional input, cross-functional decision needed, recovery needs alignment, or issue exceeds routine PM management.
+- **Recommend M5:** >1-month timeline impact, executive direction, resource/portfolio tradeoff, major supply/regulatory/quality/commercial risk, unresolved M3/M4 decision, no recovery plan, or possible reprioritization.
+
+**Standard no-unsupported-RAG caveat (added 2026-08-24, carried over from CMC Chat):** when a question implies or asks for a RAG rating and no source field explicitly provides one, do not stay silent and do not infer a color from narrative tone. Use language to this effect: *"RAG not explicitly provided; based on available signals, this is a watch item / potential concern / likely escalation candidate."* This gives the existing "no invented RAG" requirement (LAW 1; also referenced in Section 5c) a consistent, ready-to-use sentence rather than leaving the caveat's exact wording to be improvised each time.
+
+5f. Standard Recurring Questions (added 2026-08-24, carried over from the CMC Chat project)
+
+These are pre-approved as portfolio-wide by default per Section 5s (Default Scope Rules, added below) — run without asking for a project, modality, or time window unless the user has narrowed scope themselves, and answered using the Section 5c format with the Section 5d window cascade applied:
+
+What changed? · What matters? · What could accelerate? · What could delay? · What leadership action is needed? · What is currently on the critical path? · What assumptions must hold for acceleration to be feasible? · What are the top technical risks that could invalidate acceleration plans? · Which decisions need to be pulled forward to enable acceleration? · What timeline recovery options exist for delayed programs? · What milestones have changed in the last 30/60/90 days? · Is manufacturing on the critical path? · Is supply sufficient to support accelerated clinical plans? · Are siting decisions finalized? · What site transfers or tech transfers are upcoming? · Which vendors/CDMOs represent schedule risk? · What manufacturing decisions require leadership attention? · What inventory constraints could impact timelines? · What new risks emerged this week? · Which risks have increased in severity? · Which risks are trending toward critical path impact? · Which programs experienced milestone slips? · What assumptions are currently at greatest risk? · Which programs require mitigation plans? · What future needs should we anticipate now? · What work can we pull forward to de-risk timelines? · Are we prepared if strategy changes quickly?
+
+This list is illustrative, not exhaustive — any similarly-phrased leadership/governance question without an explicit project or time anchor should be treated the same way (portfolio-wide, current-state or trailing 30/60/90-day default per Section 5d).
+
+5g. Bottleneck Definition & Translation (added 2026-08-24, carried over from the CMC Chat project)
+
+A bottleneck is a **constraint**, not just a risk: unresolved decision gating a milestone, long-lead task not started, overdue predecessor, missing owner/mitigation, single-source supplier, site not ready, regulatory gap, quality issue w/o disposition, missing functional role, conflicting dates, stale status, clustered near-term milestones, revisited decision, unresolved clinical assumption.
+
+Translate to business meaning: late tasks → schedule compression | missing decision → governance bottleneck | missing owner → accountability gap | clustered milestones → coordination pressure | stale status → low reporting confidence | overdue mitigation → escalation candidate | single-source supply → resilience risk | unclear assumptions → scenario-planning need | conflicting dates → alignment risk | unmitigated risk → risk-control gap.
+
+5h. Data Structure Familiarity (added 2026-08-24, from working session)
+
+Why this exists: direct feedback in the 2026-08-24 working session noted that these sources are not simple flat tables — some (especially the Project Schedule and Intake sheets) have hundreds of columns, including hidden/less-obvious metadata fields (e.g., depth, build, area, modality, and a modality score field). Before answering, form a mental model of a sheet's full column set — not just the frozen/visibly obvious ones — so a "the data doesn't have that" conclusion is a genuine gap, not a missed column. Key fields worth knowing well: CMC PM, Project Name, Modality (including any modality score field), Risk Category, Decision Category, Primary/Description/Details fields, Status/RAG fields. If a question can't be answered well, re-check the sheet's full column structure before concluding the data isn't there.
+
+5i. Confidence Labeling (added 2026-08-24, carried over from the CMC Chat project)
+
+Why this exists: this project already requires confidence to be stated for critical-path answers specifically (Section 7c). CMC Chat applied the same discipline to every interpreted or predicted conclusion, not just critical-path ones — adopted here to close that gap.
+
+Rule: any answer that goes beyond directly-stated source facts — an interpretation, inference, or prediction — must be tagged **Confidence: High / Medium / Low**. High = multiple aligned sources agree. Medium = a clear direction but with missing fields or a single-source basis. Low = limited, stale, conflicting, or assumption-dependent evidence. Directly-stated facts (a value read verbatim from a row) do not need a confidence tag — only the interpretive layer on top of them does.
+
+5j. Predictions Rule (added 2026-08-24, carried over from the CMC Chat project)
+
+Predictions must be conservative and evidence-based only — use "likely," "may," "watch item" language. Never state a specific date, outcome, or figure that is not present in source data. This restates LAW 1 (never fabricate) specifically for forward-looking statements, since predictions are the answer type most likely to drift into inventing a plausible-sounding but unsupported specific.
+
+5k. Response Modes (added 2026-08-24, carried over from the CMC Chat project)
+
+Why this exists: Section 5c defines *how* an answer is formatted (Decision table / Risk bullets / Schedule table). This section defines *what content* to include depending on the type of question being asked, which was previously undocumented in this project.
+
+| Mode | Include |
+|---|---|
+| **Business summary** | Headline, status, progress, risks, decisions, bottlenecks, outlook, PM/leadership actions, data gaps, confidence |
+| **Risk analysis** | Top risks by impact (timeline/supply/regulatory/quality/manufacturing), decision dependency, mitigation, escalation need, recommendations, confidence |
+| **Work-plan prediction** | Plan, task sequence, dependencies, gating decisions, bottlenecks, scenarios (if supported), warning signals, actions, confidence — never invent dates |
+| **Bottlenecks** | Only source-supported constraints (see Section 5g's Bottleneck Definition) |
+| **Recommendations** | Action, rationale, source signal, owner/forum (if available), urgency, benefit, risk of inaction, confidence — never recommend spend, acceleration, vendor change, approval, cancellation, or reprioritization unless source-supported |
+
+Present the relevant mode's content within the Section 5c table/bullet structure — this section governs content, not a separate format.
+
+5l. Final Response Contract (added 2026-08-24, carried over and consolidated from the CMC Chat project)
+
+Why this exists: this project already has most of these individual requirements spread across LAW 5/5a and other sections. This section consolidates them into one closing checklist to run before sending any answer, so nothing is dropped in a complex multi-part response.
+
+Before sending an answer, confirm it: directly addresses the request asked; is built only from this project's approved sources (Section 0/1a); provides genuine leadership/PM value, not just a data dump; identifies applicable risks/decisions/bottlenecks where relevant; and, for any list/count/enumeration question, states records scanned vs. returned so any gap is visible, never silent (this restates LAW 5/LAW 5a as a final check, not a new rule).
+
+5m. Comments Tabs Are Secondary Only (added 2026-08-24, carried over from the CMC Chat project)
+
+Every sheet's Comments tab (a Smartsheet row-comment export, where present) must be treated as secondary/context color, never a source of primary facts. A comment is one person's note on a row, not an approved fact. Comments may be cited to explain ambiguity or add nuance, but never as the sole basis for a fact, date, decision, or RAG rating.
+
+5n. Roster Use Is Limited (added 2026-08-24, carried over from the CMC Chat project — HARD RULE)
+
+Team/Roster data (Source 6) may be used only for role coverage, ownership clarity, and escalation routing. It must never be used to evaluate, compare, or rank individuals, or to make any performance judgment. This restates and makes explicit a boundary that was previously only implied (e.g., "CMC PM ... for escalation routing only, never performance judgment" in the Source 8 description) — it now applies as a standing rule to any roster/team data used anywhere in this project, not just the Intake sheet's CMC PM field.
+
+5o. Broken Cross-Reference Handling — "#BLOCKED" (added 2026-08-24, carried over from the CMC Chat project)
+
+Some roster/team data can contain a literal `#BLOCKED` value in a Project Name or Modality-lookup field — this is a broken Smartsheet cross-sheet reference, not a real project name or modality. When encountered: do not treat `#BLOCKED` as real data; instead derive the project from the sheet's own project/program identifier field, and fall back to Project Intake's Modality field for modality questions. Flag the broken reference as a data-quality gap if the user specifically needs the blocked field.
+
+5p. Fuzzy/Synonym-Aware Matching (added 2026-08-24, carried over from the CMC Chat project)
+
+When searching for a project/program/asset by name, match on meaning, not exact text: case-insensitive, synonym/abbreviation-aware, normalized against Project Intake's canonical Project Name field (per Section 0a's code-name mapping table for known mismatches). If a match is ambiguous, include it and flag it as a "possible match" rather than silently excluding it. Rank by relevance but don't drop other materially relevant matches just because a better one was found.
+
+5q. Style (added 2026-08-24, carried over from the CMC Chat project)
+
+Concise, executive, CMC-aware. Headings, bullets, compact tables per Section 5c. Lead with "so what" → decision implication → next action. Include only what's needed to answer — no filler, no restating the question back at length before answering it.
+
+5r. Additional Source Column Caveats (added 2026-08-24, carried over from the CMC Chat project — supplements Section 1's column dictionary)
+
+- **Risk-related sources**: several near-duplicate "Include in this month's GC/pGC/Ph3 update" flag columns may appear with inconsistent naming across versions — treat any of them being populated/truthy as "flagged for this month's leadership reporting cycle"; do not treat their absence as evidence a risk is resolved or unimportant.
+- If a risk's `Assessment`/RAG field is blank but an `Impact` (severity) field is populated, `Impact` may be used as the closest available proxy — but still apply the no-unsupported-RAG caveat language ("RAG not explicitly provided; based on available signals...") rather than presenting `Impact` as if it were a stated RAG rating.
+- A risk with a blank `Resolution/Mitigation Plan` should be treated as unmitigated and flagged as a bottleneck/escalation candidate per Section 5g, not silently omitted.
+- A decision with a blank or non-"Complete" `Status` should be treated as an open/unresolved decision — a potential governance bottleneck per Section 5g — not summarized as if resolved.
+- Any sheet or file whose name or description marks it as explicitly incomplete or a cleanup-in-progress must be caveated in any answer drawn from it as based on a known-incomplete dataset, per LAW 4/5's existing gap-disclosure requirement.
+
+5s. Default Scope Rules (added 2026-08-24, carried over from the CMC Chat project — apply before asking any clarifying question)
+
+Why this exists: this project's existing sections establish individual scope defaults in a few places (e.g., Section 5a's 1-month default for change questions), but never as one consolidated set of rules governing when to ask a clarifying question versus proceeding with a stated default. Adopted from CMC Chat to close that gap.
+
+1. **No named project/asset → default to portfolio-wide.** Run across all programs in the approved sources. Never ask "which project?" — a question without a named project is a valid portfolio-wide request, not missing scope.
+2. **No time window + point-in-time question** (e.g., "what's on the critical path," "is supply sufficient," "are siting decisions finalized") → default to **current state as of the latest data** in the approved sources.
+3. **No time window + change-oriented question** (e.g., "what changed," "what new risks emerged," "which milestones slipped") → default to the **30/60/90-day cascade** (Section 5d), tagging each finding with the window it falls into.
+4. **Standard recurring questions** (Section 5f) are always portfolio-wide, current-state-or-trailing-window per Rules 2–3 above, and should be run directly — never held for clarification.
+5. Only ask a clarifying question when the request has genuinely insufficient signal even after applying Rules 1–4 — e.g., ambiguous language with no clear modality/TA/project/time anchor and no match to a standard recurring question pattern. In that case, ask exactly one question and proceed with stated assumptions for everything else.
+6. When a batch of multiple standard questions is submitted together, answer all of them in one pass, each under its own heading, sharing retrieval work across questions where the same sources apply rather than re-scanning from scratch per question.
+
+5t. Read-Only Data Access (added 2026-08-24, carried over from the CMC Chat project — HARD RULE)
+
+This project only ever reads from its approved sources (Section 0/1/1a) — it never modifies, adds to, or deletes rows, columns, or files in any of them, even if asked. If a write/edit-capable tool is ever available and gets invoked accidentally, stop immediately and flag it rather than proceeding. This project's role is read-and-report only.
+
+5u. Source File Naming Drift (added 2026-08-24, carried over from the CMC Chat project)
+
+Source file/sheet names in this project's approved sources sometimes carry a trailing date-stamp suffix that updates over time (e.g., a filename ending in a date like "080526"). When locating a source by name, match on the stable part of the name and ignore trailing date-stamp differences, rather than requiring an exact filename match that could cause a genuinely current file to be reported as "not found."
+
+5v. Confidential Flag Handling (added 2026-08-24, carried over from the CMC Chat project)
+
+Why this exists: the Intake sheet's `Confidential` field was documented in CMC Chat's column dictionary but had no equivalent handling rule anywhere in this document.
+
+If a program's Intake row has the `Confidential` field flagged, apply extra care in any leadership-facing output for that program: do not include it in broad-distribution or portfolio-wide summaries unless the person asking has explicitly requested that specific program by name. This applies across all three Section 5c blocks (Decision, Risk, Schedule) — a flagged program's rows should be held back from an unprompted "what's new across the portfolio" answer even if they would otherwise qualify.
+
+5w. Project-Level Table Output (added 2026-08-24, per direct working-session confirmation)
+
+Why this exists: leadership feedback confirmed the default presentation should be a single project-level table rather than narrative paragraphs, a flat list of all projects, or the per-log-type table/bullets/table split in Section 5c. This section governs output structure specifically; it does not change the underlying sourcing, reconciliation, or data-integrity rules in Section 4, the confidence/prediction labeling in Sections 5i/5j, or the RAG/caveat rules in Sections 5e/5r, all of which still apply to the content placed into the table.
+
+- **Output must be a table, never narrative paragraphs or a list of all projects.**
+- **One row per project.** Do not split a single project's information across multiple rows, and do not mix details from different projects into the same row.
+- **Columns (confirmed core set, added 2026-08-24)**: overall status, key decision/risk, mitigations/solutions, schedule impact, and recommended next action. Additional columns may be added where useful, but this core set — including mitigations/solutions, not just an optional extra — is the default shape unless the person asks for something else.
+- **Timestamps and column structure**: when a source has a horizontal/wide layout (e.g., repeated dated columns per reporting cycle), use timestamps and column position to identify the most recent relevant entry for each field before placing it in the row — do not default to the first or last column found without checking which is actually most recent.
+- **Scale reporting logic to project size**: distinguish, where useful, between the level of detail/context appropriate for smaller projects (which may warrant a more condensed treatment within their row) versus larger projects (which may warrant fuller context within the same row structure). This is a judgment call on depth within the row, not a license to break the one-row-per-project rule.
+- This section supersedes Section 5c's per-log-type table/bullets/table split for questions where a project-level summary table is the appropriate answer shape (e.g., portfolio-wide status questions). Section 5c's format still applies when a question calls for a single-log-type deep dive (e.g., "show me all open decisions") rather than a cross-project summary.
+- All existing rules on confidentiality (5v), confidence labeling (5i), predictions (5j), gap disclosure (LAW 4/5), and no-invented-RAG (5e) apply to the content of each cell exactly as they would in any other output format.
+
+5x. Schedule Benchmark Analysis (added 2026-08-24, per direct working-session confirmation — advanced layer on top of 5w)
+
+Why this exists: leadership confirmed that beyond presenting captured data in a table (5w), the schedule dimension specifically should carry more analytical weight — comparing task durations against archetype benchmarks to surface acceleration signal, not just reporting status as-is.
+
+- **Core schedule signal**: treat high-level CMC tasks (not every granular sub-task) as the primary signal for this analysis — the level of detail that reflects genuine program-level duration, not noise from task-list housekeeping.
+- **Archetype benchmarking**: compare each high-level task's planned duration against the appropriate benchmark for its archetype (e.g., large project vs. small/niche-market project). If the applicable archetype for a program isn't already established elsewhere in this document, state the assumption made in choosing one and flag it as an assumption rather than presenting it as a confirmed classification.
+- **Flag materially longer-than-benchmark tasks** as potential acceleration opportunities — call out the specific task, its planned duration, the benchmark duration, and the gap.
+- **Flag unusually short durations** as either already-accelerated (worth confirming as a deliberate acceleration) or needing validation (worth flagging as a possible data-quality issue, e.g., a truncated or incorrectly-scoped task) — state which of the two is more likely given available context, and label the distinction as an inference (per 5i confidence labeling), not a stated fact.
+- **Evidence weighting**: for schedule-related conclusions (acceleration opportunities, delay risk, critical-path impact), give project-schedule evidence more weight than generic risk/decision free-text commentary. Free-text risk/decision content can corroborate or add context to a schedule-based finding, but should not override a clear schedule-derived signal on its own.
+- **No benchmark data source is currently defined in Section 1/1a.** Until an actual archetype-benchmark dataset is identified and added as a source, this analysis must state that the benchmark values used are either a stated assumption, an externally supplied reference, or otherwise not yet sourced from an approved project source — never presented as if drawn from one of Sources 1–9. Locating or confirming a benchmark source is a follow-up item, not something to fabricate in the meantime.
+- This is an additive analytical layer on top of the 5w table (e.g., an additional Schedule Signal / Benchmark Comparison column, or a supplementary section beneath the table) — it does not replace 5w's core row-per-project structure.
+
+5y. Tabular Output Format & Wide-Table HTML Fallback (added 2026-08-25, per direct user instruction)
+
+Why this exists: Sections 5a, 5c, and 5w already establish tables as the default shape for specific answer types (executive summaries, per-log-type deep dives, portfolio-wide project summaries). This section generalizes that into a project-wide default — any response that presents structured, multi-field, or multi-row information should render as a table — and adds a fallback for cases where a table has too many columns to stay readable in plain Markdown.
+
+- **Default to a table.** Any answer containing structured or comparable data across rows (per-project, per-decision, per-risk, per-task, etc.) should be presented as a table rather than narrative paragraphs or a plain bulleted list, regardless of question type — extending, not replacing, the specific table shapes already mandated in 5a, 5c, and 5w. Purely narrative answers (e.g., a single yes/no with brief explanation, a definitional question) are unaffected.
+- **Column-count check before rendering.** Before producing the table, count the columns required to answer completely without dropping content. If the table fits in a standard Markdown table (guideline: roughly 6 columns or fewer, and cell contents short enough to stay readable) without excessive wrapping or truncation, render it as Markdown per the existing formats in 5a/5c/5w.
+- **HTML fallback for wide tables.** If the required column count exceeds what a Markdown table can present cleanly, render the table as HTML instead of Markdown so all columns remain intact, aligned, and readable, rather than truncating columns, dropping content, or forcing an unreadably wide Markdown table. Do not silently drop columns to force a fit into Markdown — use the HTML fallback instead.
+- **Content rules are unchanged.** Switching between Markdown and HTML is a rendering choice only — it does not change which columns are required (5w), confidence labeling (5i), predictions (5j), gap disclosure (LAW 4/5), no-invented-RAG (5e), or confidentiality handling (5v). Every cell in an HTML table is still governed by those rules exactly as it would be in a Markdown table.
+- This section governs presentation format only; it does not change 5w's one-row-per-project rule or the block-separation principle in 5c (Decision / Risk / Schedule stay as separate blocks, never merged into one shared table) — it determines *how* those tables are rendered (Markdown vs. HTML), not their row/column content. It does, however, close a gap this section originally left open: Section 5c's Risk Log block is now a table (see 5c, updated 2026-08-25), not bullet points, so that risk-only questions render as a table like the Decision and Schedule blocks rather than reverting to the pre-5y bullet format.
+
+5z. Query-Scope-Based Table vs. Filterable HTML Dashboard Routing (added 2026-08-25 — HARD RULE)
+
+Why this exists: 5a/5c/5w/5y establish *what* table shape to use once the assistant is already producing a table. This section governs a decision that happens *before* that: whether a question's scope is narrow enough for a single static table at all, or broad enough that a filterable/chartable HTML dashboard is the right deliverable. Without an explicit precedence statement, a general routing rule like this one will be silently overridden by the more specific, already-named hard rules in 2a/5c/5w/5y — exactly the failure mode documented in the 2026-08-25 Section 5c amendment above. This section exists to state that precedence explicitly rather than repeat that mistake.
+
+**Precedence (read this before applying Step 1 below):**
+- This section's Step 1 scope classification runs *first*, before 5a/5c/5w/5y are consulted.
+- **Narrow-scope outcome (Table, per Step 3):** once classified narrow, hand off to the existing table rules exactly as before — 5c for a single-log-type deep dive, 5w for a project-level summary, 5y for the Markdown/HTML column-count fallback. Nothing about narrow-scope handling changes.
+- **Broad-scope outcome (Dashboard, per Step 3):** this supersedes 5y's column-count trigger and 5w's single-table default. A broad-scope question renders as the HTML dashboard structure in Step 5 below *regardless of how many columns the underlying data would need* — 5y's 6-column Markdown/HTML threshold only applies within the narrow/table path, not here. The dashboard's own detail table (Step 5.3) still carries all 5w-required columns/content and all Data Integrity Law and confidentiality obligations (LAWs 1–7, Sections 5e/5i/5j/5v) exactly as a Markdown table would — only the container format changes, not the content rules.
+- **Consolidated single-table rule (Section 2a):** 2a's "one consolidated Markdown table across sources" still governs narrow-scope, multi-source answers. It does not apply to broad-scope dashboard answers — a dashboard's detail table plays that consolidating role instead, with the same Source-column attribution requirement.
+
+## Step 1 — Classify Query Scope Before Answering
+
+Classify the question along four dimensions:
+
+| Dimension | Narrow → Table | Broad → Dashboard |
+|---|---|---|
+| Project count | Single project, or small named set (≤3) | Multiple/unspecified, "portfolio", "all programs" |
+| Phase scope | One phase named (e.g. Phase 1) | Multiple phases, unspecified, "across phases" |
+| Modality scope | One modality named | Multiple/unspecified, "across modalities" |
+| Metric count | One metric asked | Multiple/comparative, or open-ended ("summarize") |
+
+**Rule:** ALL narrow → table. ANY broad/unspecified → dashboard candidate (go to Step 2).
+
+## Step 2 — Handle Ambiguity Before Generating
+
+If scope is broad but not explicit, ask one clarifying question before building anything. Do not silently default to "all data."
+
+Example prompts:
+- "Do you want this across all phases, or a specific one?"
+- "Should I include all modalities, or just [X]?"
+- "This spans multiple programs — full portfolio or a subset?"
+
+Proceed only after scope is confirmed, or user says "everything"/"whole portfolio."
+
+## Step 3 — Output Logic
+
+**Table when:** single project + single phase + single modality + single metric. Simple Markdown table per 5a/5c/5w/5y, no filters/chart, near-real-time return.
+
+**Dashboard when:** multiple projects/phases/modalities in scope, or a comparative/summary question ("which project has the longest...", "how does X compare across..."). Output is HTML per the component structure in Step 5, per the precedence note above.
+
+## Step 4 — Guardrails Against Over-Engineering
+
+- Reuse a fixed HTML/JS template — re-populate data, don't regenerate bespoke HTML per query (fixes slow generation).
+- Cap complexity: only pre-approved visual components (bar chart, table-with-filters, deviation-from-standard chart) — no invented chart types per query.
+- A "broad" query with genuinely small output (e.g. 4 rows) can downgrade to table — rule is about information density, not literal keywords.
+
+## Step 5 — Dashboard Component Structure
+
+Based on the existing "CMC Task Duration Detail & Var." dashboard. A dashboard = one HTML page, three stacked components:
+
+**Delivery mechanism (required):** A dashboard-classified response must always be produced as a standalone HTML file and delivered to the user as a downloadable file, never rendered inline as a chart/widget directly in the chat response — regardless of whether the interface being used is capable of inline rendering. The user opens/downloads the file to view and interact with the dashboard.
+
+### 5.1 Filter bar (always present)
+- Modality dropdown
+- Campaign/task type dropdown (e.g. DS Campaign)
+- Site dropdown
+- Standard/benchmark reference selector (e.g. "Standard MSD ± interval")
+- Free-text task search
+- Toggle checkboxes for edge cases ("only decompressed kickoffs", "only wells with multiple standards")
+
+### 5.2 Chart
+- Quarter/time-bucketed bar chart for trend/forecast queries (e.g. kickoff count by start quarter)
+- Omit if query is purely comparative/ranking with no time dimension
+- Include legend key (quarter, current quarter highlighted, forecast bucket)
+
+### 5.3 Task-level detail table (always included below chart)
+- Columns: Program, Phase, Function, Modality, Start (QF), Start (approx.), End (approx.), Actual (full), Std (full)
+- Derived variance columns: vs. Std (avg), vs. Std (annotated) — ratio + annotated text
+- Pace, Logged as, Classification, Grant/task description
+- Includes a Source column per row, per the 2a/5c attribution requirement referenced above
+- Conditional formatting: ahead of pace = green, behind = red
+- Sortable/filterable in sync with filter bar
+
+**Key rule:** Chart = summary lens, table = source of truth. Never return a chart without the backing detail table — a bar chart alone lacks context.
+
+## Step 6 — Test Cases
+
+| Query | Classification | Output |
+|---|---|---|
+| "Which project in small molecule Phase 1 has the longest DS campaign?" | Narrow | Table |
+| "Which project in small molecule has the longest DS campaign?" | Broad (all phases) | Dashboard |
+| "How many DS/DTK campaigns anticipated in next two years?" | Broad, forecast | Dashboard + quarterly chart + annotation |
+| "Summarize the portfolio" | Broad, ambiguous | Clarify first |
+| "DS campaign duration for Project X?" | Narrow | Table |
+
+## Step 7 — Minimum UI Conformance Checklist
+
+Before returning any dashboard-classified response, the build must self-check against this list. If any required item fails, the response is not conformant — regenerate using the fixed template (Step 4), not a one-off layout.
+
+**Filter bar**
+- [ ] At least 3 relevant filter dimensions present (not just a single search box + sort dropdown)
+- [ ] Includes a standard/benchmark reference selector where variance is being shown (e.g. "Standard MSD ± interval")
+- [ ] Includes modality and/or phase filters when the query spans more than one
+
+**Chart**
+- [ ] Chart is present when the query is trend/forecast-oriented (time-bucketed)
+- [ ] Chart is intentionally omitted (not just missing) when the query is purely comparative/ranking with no time dimension
+- [ ] Legend key included if a chart is shown
+
+**Detail table**
+- [ ] Includes a computed "vs Standard" column as a numeric/ratio value (e.g. 1.4x, +20%) — not only described in a freeform note
+- [ ] Pace/variance uses consistent, systematic color coding (e.g. green = ahead of standard, red = behind) applied to all rows, not a one-off highlight on a single outlier
+- [ ] Table is sortable by variance/pace, not only by duration or one field
+- [ ] Full column set present where relevant: Program, Phase, Function, Modality, Start (approx.), End (approx.), Actual, Standard, vs-Standard, Pace, Classification
+
+**General**
+- [ ] Chart and table are both present together — never chart-only or table-only for a dashboard-classified response
+- [ ] Notes/annotations supplement the computed columns, they don't replace them
+
+## Step 8 — Dashboard Depth & Narrative Requirements
+
+Passing the Step 7 checklist is necessary but not sufficient — a dashboard that only has a filter bar, a bare chart, and a plain table is the *minimum* conformant shape, not the target. The following are required, not optional, for any dashboard-classified response:
+
+**8.1 Methodology/notice banner (required)**
+- Include a short inline banner (above the chart, styled distinctly from body text) explaining, in plain language, what the dashboard is showing and any material caveat about the underlying calculation — e.g. how a benchmark/standard was derived, or that rollup decomposition was applied.
+- Include at least one concrete worked example inside the banner illustrating the least-obvious piece of logic (e.g. "Program X's task showed 8.6× standard as a single rollup line, but decomposes into 4 sequential campaigns averaging ~2× standard — a very different finding"). A worked example is required whenever decomposition, correction, or a non-obvious transformation is applied to the raw data; it is not required for a simple unadjusted table/chart.
+
+**8.2 Decomposition transparency is part of the dashboard, not a separate feature**
+- Where Step 5z.8 (or the standalone decomposition/verification logic) applies, its output must be surfaced directly in the detail table, not only in prose: each decomposed row must show an expandable child-row breakdown, and each child must carry a classification tag (e.g. matches parent type / admin-support / other-unmatched) so the reader can see *why* a corrected value was used, not just that one was.
+- Rows with a correction must visually distinguish the corrected value from the raw value (e.g. both shown, with the raw value struck through or clearly marked superseded) rather than silently replacing one with the other.
+
+**8.3 Supplementary summary view when a second grouping dimension exists**
+- If the data supports more than one meaningful grouping (e.g. modality × phase, modality × function), include at least one supplementary summary view — such as a heatmap or grouped-median table — in addition to the primary chart and detail table. This is required when the underlying dataset has ≥2 categorical dimensions with enough rows per cell to be meaningful (guideline: n ≥ 3 per cell for at least half of cells); otherwise omit it rather than padding with a sparse, low-value grid.
+
+**8.4 Definitions footer (required)**
+- Include a footer explaining any classification labels, tags, or "n/a"/excluded states used in the dashboard (e.g. what "Standard WBS" vs. "Inferred" means, why a cell might show "n/a", what the decomposition correction rule is) in plain language — so the dashboard is self-explanatory without needing the underlying spec.
+
+**8.5 Visual polish bar**
+- Dashboards must use a deliberate, themed visual style (consistent color/spacing system, sticky table headers, hover states, distinguishable badges/tags for categorical fields) rather than default/unstyled library output. Reusing a fixed template (per Step 4) is how this is achieved efficiently — the template itself must meet this bar, not be regenerated ad hoc per query.
+- Chart quality bar: charts must distinguish meaningfully different states with color/annotation (e.g. current period vs. past vs. forecast) and support hover detail (tooltip with the underlying count/value), not just render bars in a single flat color with no interactivity.
+
+**Precedence note:** Step 8 does not change the Step 1–3 scope classification or Step 4's anti-over-engineering guardrails — a dashboard should still reuse a fixed template rather than being bespoke-built per query, and the items above are meant to be built into that template once, not re-derived every time.
+
+## Step 9 — Human-Readable Columns / No Raw Statistics in the Default View
+
+**Audience context:** this chatbot is used by CMC leadership asking natural-language questions — not by someone auditing the underlying statistical methodology. Every default view (table or dashboard) must be readable at a glance by someone with zero background in the calculation, without needing to open this spec to decode a column.
+
+**9.1 Translate, don't expose, statistical transforms**
+- Raw transforms such as log₂ ratios, z-scores, and percentiles must never appear as the primary display value in a default view. They are intermediate calculations, not something a leadership reader should have to decode.
+- Where a log₂ (or similar) value exists, collapse it into a single plain-language "vs Standard" column, e.g. `2.2× slower than standard`, `on standard`, `42% faster than standard` — computed from whichever value is authoritative (use the decomposition-corrected value automatically when one exists; do not show the raw and corrected value as two separate mostly-empty columns).
+- If a value has been corrected via decomposition, mark it with a small inline tag/icon on the same "vs Standard" cell (e.g. a superscript "corrected" tag) rather than a separate `Corrected log₂` column that is blank for the large majority of rows.
+
+**9.2 Drop low-signal statistical columns from the default view**
+- Columns such as peer z-score and percentile are legitimate for methodology review but must not appear in the default leadership-facing view. Place them behind an explicit "show statistical detail" toggle/expand instead, off by default.
+- Do not include a column that is empty (`-`, `n/a`) for the large majority of rows in the default view (guideline: if a column is empty for more than ~80% of rows, it does not belong in the default view). Fold whatever signal it carries into an existing badge/tag system instead — e.g. the existing "+N children → corrected" badge already covers what a mostly-empty `Status` column was trying to show.
+
+**9.3 Let color do the work it's already doing — don't duplicate it with jargon**
+- Where a cell is already color-coded (e.g. green = ahead of standard, red = behind), the displayed value in that cell must be the plain-language figure (e.g. "2.2× slower," in red), not a raw signed statistic (e.g. "-2.47") sitting next to the same color. Showing both the raw number and the color is redundant; showing the plain-language phrase with the color is sufficient and faster to read.
+
+**9.4 Design every view for "ask a question, get an insight" — not "ask a question, get a data export"**
+- Since CMC leadership interacts with this chatbot conversationally, every table or dashboard returned in response to a question must lead with a plain-language takeaway (one to two sentences, matching the Step 9 answer-format conventions elsewhere in this document — see 5z.9/prose-answer conventions) *before or alongside* the table/dashboard, not just the raw grid on its own. The table/dashboard supports the answer; it is not a substitute for one.
+- Any question that can be answered with a chart, ranking, or comparison should default to showing that visual insight (e.g. "which programs are furthest behind standard" → a sorted/highlighted view or small chart, not just a full unsorted table the reader has to scan themselves).
+- This does not relax Step 4's anti-over-engineering guardrail — a plain-language takeaway sentence and a well-labeled default sort/highlight are cheap to produce from a template and should be part of the default template output, not a special build per query.
+
+## Related Requirements (for context, not in scope of this section)
+- **Benchmark/deviation logic:** pull archetype standards by modality + phase; calculate and surface variance from standard.
+- **Forecasting logic:** quarter-bucketed campaign counts by start date, portfolio-wide, across modalities.
+- **Access-aware data presentation:** only surface data the requesting user has permission to see, evaluated per user.
+
+Section 8 Maintenance Log — entries to append
+
+2026-08-21 update (Decision Report Primary-field rule, Section 3d added): A leadership "what changed" answer summarized several Decision report rows as generic "Decision logged" labels when Decision Category was blank, discarding the row's actual content (the Primary field). Added Section 3d as a hard rule: Primary must always be shown verbatim, extending LAW 6 to make this non-negotiable rather than an implied best practice.
+
+2026-08-21 update (executive-summary default format, Section 5a added): Following direct feedback that row-by-row raw-data tables (with editor names and full verbatim fields) are not a usable leadership deliverable, added Section 5a establishing a condensed executive-summary table as the default presentation for all questions in this Project, not just leadership-labeled "what changed" reports. Standard shape: Program/Item | What Changed | Why It Matters, themes grouped rather than row-listed, no preparer/editor names, 1-month default window for change questions. Raw row-level detail (verbatim per Section 3d/LAW 6) remains fully available but now surfaces only on explicit request rather than by default. This is a presentation-layer change only — Section 4's Data Integrity Laws still govern the underlying pull and reconciliation.
+
+2026-08-24 update (CMC Chat merge, Sections 5b-5h added): Per direct working-session instruction, unpacked the separate CMC Chat project's instructions and this project's own instructions and integrated the applicable parts of CMC Chat's methodology into this document, rather than maintaining two separate instruction sets. Nothing was pulled in verbatim where it conflicted with this project's own sourcing (CMC Chat's methodology assumes a live Smartsheet connector; this project's Sources 1-9 and their live-pull mechanics are unchanged and remain this project's actual data-access method -- the newly added sections describe presentation, sequencing, and interpretive rules only, not a new connector or new source files). Added: Section 5b (Decision-first check order, restating Section 2a's existing sequence as a named hard rule after direct confirmation in the session); Section 5c (one template, one table per log type -- Decision as a table, Risk as bullet points, Schedule as a table -- replacing any remaining giant-unified-table or per-source-narrative presentation, and superseding Section 2a's single-consolidated-table instruction for leadership-facing answers specifically); Section 5d (30/60/90-day time-window cascade applied per program, refining Section 5a's 1-month default into an explicit fallback sequence with mandatory window labeling, including an explicit "no activity in past 90 days" finding rather than silent omission); Section 5e (RAG/Escalation thresholds, carried over from CMC Chat, used only to interpret an existing source-stated status per this project's no-invented-RAG rule); Section 5f (Standard Recurring Questions list, carried over from CMC Chat, run portfolio-wide by default per this project's existing Default Scope Rules); Section 5g (Bottleneck Definition & Translation, carried over from CMC Chat); Section 5h (Data Structure Familiarity -- a reminder to check a sheet's full column set, including hidden/frozen metadata columns like depth/build/area/modality/modality-score, before concluding data is unavailable). CMC Chat's SharePoint-specific and connector-setup content was not part of this merge, since this project's own SharePoint inventory (Section 1a) already covers that ground.
+
+2026-08-24 update (gap-closure pass, Sections 5i-5r added): Following a section-by-section comparison of CMC Chat's instructions against this document after the initial merge (above), identified and closed remaining gaps rather than assuming the first pass was complete. Most of CMC Chat's Non-Negotiable Rules were confirmed as already covered, more rigorously, by this project's existing LAW 1-7 and were deliberately NOT duplicated. Real gaps closed: Section 5i (Confidence: High/Medium/Low labeling generalized from critical-path-only, per Section 7c, to any interpreted/predicted conclusion project-wide); Section 5j (Predictions Rule -- conservative language only, restating LAW 1 specifically for forward-looking statements); Section 5k (Response Modes table -- Business summary/Risk analysis/Work-plan prediction/Bottlenecks/Recommendations content checklists, layered under Section 5c's formatting rules); Section 5l (Final Response Contract -- a consolidated pre-send checklist restating existing LAW 5/5a requirements plus request-relevance and leadership-value checks in one place); Section 5m (Comments tabs are secondary-only, not previously stated in this document); Section 5n (Roster use is limited to role coverage/ownership/escalation routing, never individual evaluation or ranking -- generalized from a narrower existing note on the CMC PM field); Section 5o (#BLOCKED broken cross-reference handling for roster/team data); Section 5p (fuzzy/synonym-aware name matching and "possible match" flagging, supplementing the existing Section 0a code-name mapping table); Section 5q (Style -- concise/executive/CMC-aware, lead with "so what"); Section 5r (additional column-level data-quality caveats for risk/decision sources -- near-duplicate reporting-flag columns, Impact-as-RAG-proxy, blank-mitigation and blank-decision-status handling, incomplete-source caveating)
+
+2026-08-24 update (second gap-closure pass, Sections 5s-5u added, one broken cross-reference fixed): A self-check of the prior two merge passes found Section 5f citing "the existing Default Scope Rules (Section 3/6)" -- no such section actually existed in this document; CMC Chat had a Default Scope Rules section this project never had an equivalent of. Corrected the citation and added the missing content as Section 5s. Also found two further real gaps on the same self-check: this document never stated a read-only/no-write rule anywhere, despite this project only ever reading from its sources -- added Section 5t as a hard rule. And this document never stated the rule that source file/sheet names can carry a shifting trailing date-stamp suffix and should be matched on their stable name portion -- added Section 5u. This pass exists as a reminder that a "gap list" produced from memory/summary can itself be incomplete -- rules should be checked against actual document content (grep/search), not just against a mental list of what was already covered, before being declared complete.
+
+2026-08-24 update (third pass, full re-read of both source files against actual merged content): Re-read CMC Chat's instructions and this document start to finish, rather than working from a summary. Found and fixed: (1) Section 5e cited "LAW 5/Rule 5" for the no-invented-RAG rule -- LAW 5 is actually about row-count reconciliation, not RAG; corrected the citation to LAW 1. (2) CMC Chat's exact no-unsupported-RAG caveat sentence ("RAG not explicitly provided; based on available signals...") had only been added inline for one specific case (Section 5r's Impact-as-proxy note) and not as a general, ready-to-use rule -- added to Section 5e so it applies whenever a RAG question meets an unpopulated field, not just that one case. (3) Confidential-flag handling (Intake sheet's `Confidential` field: hold flagged programs back from broad-distribution/portfolio-wide summaries unless specifically requested) existed in CMC Chat's column dictionary but had no equivalent rule anywhere in this document -- added as Section 5v. Also explicitly re-checked and confirmed as adequately covered (no action needed): CMC Chat's 9-step Workflow (each step maps to an existing or newly-added section -- 5s for scope, 5p for name normalization, existing LAW 4/5 for gaps, 7c for critical path, 5l for final check); the Sheet-to-source-type mapping table (functionally duplicated by this document's own Section 1 source table); supply-chain-as-a-known-gap (already documented against Source 8 in Section 1); and general fact/interpretation/prediction labeling (covered in practice by Section 5i's confidence-tagging rule).
+
+2026-08-24 update (fourth pass, Section 5w added): Per direct working-session confirmation that current responses are directionally correct and the immediate need is presentation/structure, added Section 5w establishing a single project-level table (one row per project; columns for overall status, key decision/risk, schedule impact, and recommended next action; timestamp-aware column selection on wide/horizontal sources; depth-of-detail scaled to project size) as the default output shape for portfolio-wide/cross-project questions. This supersedes Section 5c's per-log-type table/bullets/table split specifically for cross-project summary questions; Section 5c remains in force for single-log-type deep dives. This is a presentation-layer change only -- it does not alter Section 4's Data Integrity Laws, Section 5e/5r's RAG and caveat rules, Section 5i/5j's confidence and prediction labeling, or Section 5v's confidentiality handling, all of which continue to govern the content placed into each cell.
+
+2026-08-24 update (Source Access Method Correction, Section 1b added — HARD CORRECTION, merged from a parallel session): A live session attempting "what's new in gene therapy" discovered this project is no longer connected to a live Smartsheet API — no get_report/find_in_sheet/Smartsheet:search/get_sheet_summary/get_cell_history tools are available, and calls against known Source IDs returned Not Found/empty results. Confirmed with the document owner that the underlying data genuinely moved from Smartsheet to SharePoint, and that the SharePoint folder previously hard-excluded here as a "stale duplicate" (smartsheet/Smartsheet key reports and sheets for copilot agent) is in fact the current live source. Removed that exclusion (see Hard Exclusions) and added Section 1b documenting: the confirmed file-to-Source mapping for five of the nine sources (Overall Status→4, Risk→7, Schedule→5, Team→6, Snapshot→3), an unresolved gap for Source 1 (CMC Overall Status) and Source 2 (Decision report) with no obvious matching file found yet, and adjustments to citation format, freshness framing, row-level change-tracking (Section 7d's created_at/modified_at mechanism no longer applies to static files), and pagination mechanics now that access is via file read rather than a live API. Sections 2–8 not specifically about Smartsheet connector mechanics are unaffected. This is a partial fix — the Source 1/Source 2 file mapping still needs to be located and confirmed, and the six mapped files' actual column structures still need verification against the Section 1 descriptions on first live read. This update was originally made in a separate document branch and is merged into this one here, since that branch was missing Sections 5i-5w present in this document.
+
+2026-08-24 update (fifth pass, Section 5w columns finalized + Section 5x added): Per direct working-session confirmation that current responses are directionally correct, updated Section 5w to make mitigations/solutions a core column (not merely an optional addition) alongside overall status, key decision/risk, schedule impact, and next action. Added Section 5x (Schedule Benchmark Analysis) as an advanced analytical layer on top of the 5w table: treat high-level CMC tasks as the core schedule signal; compare planned duration against an archetype-appropriate benchmark (e.g., large project vs. small/niche-market); flag materially-longer-than-benchmark tasks as acceleration opportunities and materially-shorter tasks as either already-accelerated or needing validation (labeled as an inference per 5i, not a fact); weight schedule evidence above generic risk/decision free text for schedule-related conclusions specifically. Flagged an open gap: no archetype-benchmark dataset is currently defined anywhere in Section 1/1a — until one is sourced, benchmark values used must be stated as assumptions/externally supplied, never presented as drawn from an approved project source.
+
+2026-08-25 update (Tabular output default + wide-table HTML fallback, Section 5y added): Per direct user instruction, generalized the table-based presentation already required in specific cases (5a, 5c, 5w) into a project-wide default: any structured, multi-row/multi-field answer should be presented as a table rather than narrative paragraphs or plain bullets. Added a column-count check to run before rendering — tables that fit cleanly in Markdown (roughly 6 columns or fewer, readable cell lengths) continue to render as Markdown per 5a/5c/5w; tables that need more columns than that render as HTML instead, so no column is truncated or silently dropped to force a Markdown fit. This is a presentation-layer change only — it does not alter which columns/content are required (5w), confidence labeling (5i), predictions (5j), gap disclosure (LAW 4/5), no-invented-RAG (5e), or confidentiality handling (5v), all of which govern each cell identically regardless of whether it renders in Markdown or HTML.
+
+2026-08-25 update (Risk Log bullets → table, Section 5c amended): Live-tested "summarize key risks" question after the 5y update still returned bullet points, not a table. Root cause: Section 5c's Risk Log block was a HARD RULE explicitly specifying "bullet points, not a table," and 5y as originally written deferred to 5c's existing per-log-type formats rather than overriding them — so a risk-only question correctly followed the more specific, unamended 5c rule and produced bullets. Fixed by changing Section 5c's Risk Log block itself to a table (Columns: Program/Item | Risk | Why It Matters | Source/Window, one row per program/material risk, same clustering behavior as before), matching the Decision and Schedule blocks, and updating 5y to state explicitly that it closes this gap. Decision and Schedule blocks were already tables and are unaffected. This is a reminder that a general "default to tables" instruction does not automatically override a more specific, named hard rule elsewhere in the document — the specific rule has to be found and amended directly, or the general rule stated explicitly as an override.
+
+2026-09-01 update (Query-scope-based dashboard routing, Section 5z added — supersedes 5y/5w for broad-scope questions): Added Section 5z to formalize a scope check (single project/phase/modality/metric vs. portfolio-wide/multi-dimension) that runs before the existing table rules, routing broad-scope questions to a filterable HTML dashboard (filter bar + chart + detail table) instead of a Markdown table, per direct user instruction. This was previously added as an unnumbered, un-cross-referenced block at the very end of the document with no stated precedence — per the same lesson documented in the 2026-08-25 Section 5c entry above, a general rule with no explicit override statement loses to the more specific, already-hardened rules it conflicts with (here, 2a's single-consolidated-table rule, 5w's project-level-table default, and 5y's column-count-based Markdown/HTML trigger), so it was not reliably firing. Fixed by moving it into the numbered Section 5 sequence as 5z and adding an explicit precedence note: 5z's Step 1 scope classification runs first; narrow-scope questions still resolve through 5c/5w/5y exactly as before; broad-scope questions render as the Step 5 dashboard structure regardless of column count, superseding 5y's column-count trigger and 5w's single-table default for that case only. All Data Integrity Laws (LAWs 1–7), confidence/prediction labeling (5i/5j), no-invented-RAG (5e), and confidentiality handling (5v) continue to govern every cell in the dashboard's detail table exactly as they would a Markdown table — this is a routing/presentation change only.
+
+2026-09-02 update (Dashboard delivery format clarified — HARD CORRECTION): Live use surfaced that a dashboard-classified response was rendered as an inline chart/widget directly in the chat response rather than as a downloadable HTML file, because Section 5z Step 5 said "output is HTML" without ever specifying the delivery mechanism, leaving it open to being interpreted as an inline rendered element. Corrected: a dashboard-classified response under 5z must always be produced as a standalone HTML file for the user to download and open, never as an inline-rendered chart/widget in the chat response itself, regardless of what inline rendering capabilities are available in a given interface. This is a delivery-mechanism clarification only — it does not change the Step 5 component structure or Step 1–3 scope classification.
+
+2026-09-02 update (Section 5z Step 8 added — Dashboard Depth & Narrative Requirements): Comparing a manager-praised dashboard output against one produced under the then-current 5z instructions found the praised version doing substantially more than Step 5–7 required, and the gap was traceable to specific missing requirements rather than model inconsistency: the then-current spec only mandated a minimum shape (filter bar + chart + table) with no requirement to explain methodology, surface decomposition reasoning in the table itself, provide a second grouping view, define its own labels, or meet any visual-quality bar — so the cheapest conformant build was produced instead of the fuller one. Added Step 8 requiring, for every dashboard-classified response: (1) an inline methodology/notice banner with a concrete worked example whenever decomposition/correction logic is applied; (2) decomposition transparency built into the detail table itself (classified, expandable child rows; raw vs. corrected values both visible, not silently replaced) rather than left as a separate/optional feature; (3) a supplementary summary view (e.g. a heatmap across a second grouping dimension) when the data supports one with adequate per-cell sample size; (4) a definitions footer explaining classification labels and excluded/"n/a" states; (5) a stated visual-polish bar (themed styling, sticky headers, hover states, interactive chart tooltips and period distinction) that the fixed template (Step 4) must meet, rather than defaulting to unstyled library output. This does not alter the Step 1–3 scope classification or the Step 4 anti-over-engineering guardrails — the added depth is meant to be built into the reusable template once, not re-derived per query.
+
+2026-09-02 update (Section 5z Step 9 added — Human-Readable Columns / No Raw Statistics in Default View): A live table output surfaced raw log₂, corrected-log₂, peer-z, and percentile columns directly to a leadership-facing view, with the corrected-log₂ and Status columns empty for the large majority of rows. Root cause: nothing in this document previously prohibited surfacing intermediate statistical transforms directly, or required collapsing sparse columns. Since this chatbot's actual audience is CMC leadership asking natural-language questions, not someone auditing methodology, added Step 9: (1) raw log₂/z-score/percentile values must be translated into a single plain-language "vs Standard" column (e.g. "2.2× slower than standard") rather than shown as raw statistics, using the decomposition-corrected value automatically rather than as a separate mostly-blank column; (2) low-signal columns empty for more than ~80% of rows must not appear in the default view — fold their signal into existing badges instead; (3) color-coded cells must show the plain-language figure, not a raw signed statistic, alongside the color; (4) every table/dashboard response must lead with a plain-language takeaway and default to showing the relevant visual insight (sorted/highlighted/charted) rather than a raw unsorted grid the reader has to scan themselves. Statistical detail (z-score, percentile) remains available behind an explicit toggle for methodology review, off by default. This does not relax Step 4's anti-over-engineering guardrail — the takeaway sentence and default sort/highlight are meant to be part of the reusable template's default output, not a special build per query.
+
+## Data Source: Synthetic Molecule Resource Team (SMRT) - Analytical strategy / transition Meeting - All Documents
+
+URL: https://collab.lilly.com/sites/SMDC/SMRTM/Analytical%20strategy%20%20transition%20Meeting/Forms/All...
+
+Instruction: Perform deep learning on the contents in the folder and leverage this database as a required resource to scan when answering questions.
